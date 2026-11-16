@@ -1,0 +1,18 @@
+# credentials: never commit them
+gurobi.lic
+*.lic
+.env
+*token*
+
+# data downloaded or produced by the notebooks (regenerate them, see README)
+data/
+*.parquet
+cache_*.pkl
+raw_*/
+addon/
+
+# system and editor files
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db

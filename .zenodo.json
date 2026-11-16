@@ -1,0 +1,15 @@
+{
+  "title": "Routing and basing maritime patrol aircraft for fisheries surveillance around marine protected areas: code and results",
+  "upload_type": "software",
+  "description": "<p>Notebooks and results that reproduce the article <em>Routing and basing maritime patrol aircraft for fisheries surveillance around marine protected areas: an out-of-sample evaluation with vessel-tracking data</em>. The notebooks download apparent fishing effort from Global Fishing Watch (dataset public-global-fishing-effort:v4.0) and protected-area boundaries from the WDPA, build the cell and block grid, train the risk model, plan monthly sorties with the routing heuristic, compute the linear-programming bound and the exact benchmarks, run the out-of-sample backtest and the enumeration of deployments, and produce every table and figure of the article. Raw Global Fishing Watch data are not redistributed: the notebooks download them with the user's own API token.</p>",
+  "creators": [
+    {"name": "Catalán, Andrés H.", "affiliation": "Universidad Andrés Bello; Chilean Navy", "orcid": "0009-0008-5970-771X"},
+    {"name": "Canut-de-Bon, Darío A.", "affiliation": "Universidad Andrés Bello; Chilean Navy", "orcid": "0000-0001-7037-2721"},
+    {"name": "Piñeiro, María J.", "affiliation": "Chilean Navy", "orcid": "0000-0001-8244-6660"},
+    {"name": "González, Edmundo", "affiliation": "Chilean Navy"}
+  ],
+  "license": "MIT",
+  "keywords": ["maritime surveillance", "orienteering problem", "submodular optimization", "marine protected areas", "AIS", "Global Fishing Watch"],
+  "language": "eng",
+  "version": "1.0.0"
+}

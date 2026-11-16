@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this software archive."
+title: "Routing and basing maritime patrol aircraft for fisheries surveillance around marine protected areas: code and results"
+type: software
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-17"
+authors:
+  - family-names: "Catalán"
+    given-names: "Andrés H."
+    orcid: "https://orcid.org/0009-0008-5970-771X"
+    affiliation: "Universidad Andrés Bello; Chilean Navy"
+  - family-names: "Canut-de-Bon"
+    given-names: "Darío A."
+    orcid: "https://orcid.org/0000-0001-7037-2721"
+    affiliation: "Universidad Andrés Bello; Chilean Navy"
+  - family-names: "Piñeiro"
+    given-names: "María J."
+    orcid: "https://orcid.org/0000-0001-8244-6660"
+    affiliation: "Chilean Navy"
+  - family-names: "González"
+    given-names: "Edmundo"
+    affiliation: "Chilean Navy"
+keywords:
+  - maritime surveillance
+  - orienteering problem
+  - submodular optimization
+  - marine protected areas
+  - AIS
+  - Global Fishing Watch

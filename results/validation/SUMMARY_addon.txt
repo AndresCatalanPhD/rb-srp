@@ -1,0 +1,44 @@
+dataset: public-global-fishing-effort:v4.0 | matches the monthly panel within 3%: False
+version probe:
+                            dataset   month  api_hours  panel_hours  ratio                                                                                                                                        error
+public-global-fishing-effort:latest 2023-03    874.519     1572.181  0.556                                                                                                                                          NaN
+public-global-fishing-effort:latest 2024-09    304.509     2018.752  0.151                                                                                                                                          NaN
+  public-global-fishing-effort:v4.0 2023-03   1520.421     1572.181  0.967                                                                                                                                          NaN
+  public-global-fishing-effort:v4.0 2024-09   1831.659     2018.752  0.907                                                                                                                                          NaN
+  public-global-fishing-effort:v3.1 2023-03        NaN          NaN    NaN 404: {"statusCode":404,"error":"Not Found","messages":[{"title":"Not Found","detail":"Dataset with id public-global-fishing-effort:v3.1 not 
+  public-global-fishing-effort:v3.1 2024-09        NaN          NaN    NaN 404: {"statusCode":404,"error":"Not Found","messages":[{"title":"Not Found","detail":"Dataset with id public-global-fishing-effort:v3.1 not 
+  public-global-fishing-effort:v3.0 2023-03   1520.421     1572.181  0.967                                                                                                                                          NaN
+  public-global-fishing-effort:v3.0 2024-09   1831.659     2018.752  0.907                                                                                                                                          NaN
+block-day rows: 159,333
+daily (cells) vs monthly:
+           daily     monthly  ratio
+2021  461325.580  464759.919  0.993
+2022  671958.669  677224.783  0.992
+2023  527420.704  529938.041  0.995
+2024  456684.198  460272.221  0.992
+2025  471249.237  473673.813  0.995
+vessel-level data: True
+errors: cell-day 0, vessel 0, no-take 0, SAR 0
+block-day-vessel rows: 384,182 | vessels: 1,855 | blocks requested: 1,321 | block-years covered: 6,605 of 6,605
+vessel hours vs monthly panel:
+          vessel_h   all_hours  ratio
+year                                 
+2021  462254.90625  453226.079  1.020
+2022  674208.43750  666158.608  1.012
+2023  527551.81250  520580.073  1.013
+2024  457184.81250  449408.839  1.017
+2025  473048.56250  463907.262  1.020
+flags (hours):
+flag
+CHN    1768793.0
+CHL     324293.0
+ESP     156468.0
+        118913.0
+GBR      41447.0
+PRT      19048.0
+JPN      18247.0
+RUS      17040.0
+ARG      17006.0
+UKR      14470.0
+PER      13832.0
+POL      12419.0

@@ -1,0 +1,3332 @@
+{
+ "boundary": {
+  "no-take": {
+   "inside": 2.1641964233881166,
+   "outside": 25.739549034125982,
+   "ratio": 11.89335161816316,
+   "ci_lo": 5.322407076827367,
+   "ci_hi": 47.081022475245426,
+   "loo_min": 10.813748650271531,
+   "loo_max": 18.13434522431079,
+   "n_in": 791,
+   "n_out": 751,
+   "sites": 6
+  },
+  "multi-use": {
+   "inside": 10.910548546069814,
+   "outside": 27.913272321777544,
+   "ratio": 2.5583747878407483,
+   "ci_lo": 1.5104357472400918,
+   "ci_hi": 4.456726918452781,
+   "loo_min": 2.058051611241405,
+   "loo_max": 4.259384985149878,
+   "n_in": 713,
+   "n_out": 719,
+   "sites": 16
+  }
+ },
+ "jurisdiction": {
+  "available": true,
+  "ring_pressure_share": 0.15587997010684784,
+  "ring_cells_share": 0.37320540897556226,
+  "by_site": {
+   "Archipi\u00e9lago de Humboldt": 1.0,
+   "Bah\u00eda Lomas": 1.0,
+   "Estero de Quitralco": 1.0,
+   "Francisco Coloane (AM)": 1.0,
+   "Islas Diego Ram\u00edrez y Paso Drake": 0.999,
+   "Kaw\u00e9sqar (RN)": 1.0,
+   "Lafken Mapu Lahual": 1.0,
+   "Mar de Juan Fern\u00e1ndez": 0.9624,
+   "Mar de Juan Fern\u00e1ndez (PN)": 0.6501,
+   "Mar de Pisagua": 1.0,
+   "Montes submarinos Crusoe y Selkirk": 0.9994,
+   "Nazca-Desventuradas": 0.02,
+   "Pitipalena - A\u00f1ihue": 1.0,
+   "Punta Morro - Desembocadura R\u00edo Copiap\u00f3 - Isla grande de Atacama": 1.0,
+   "Rapa Nui": 0.0,
+   "Seno Almirantazgo": 1.0,
+   "Tictoc-Golfo Corcovado": 1.0,
+   "Tortel": 1.0
+  },
+  "by_ring_width": {
+   "50": 0.03929160196329582,
+   "100": 0.08859219679036462,
+   "200": 0.14824951955070959,
+   "400": 0.23700434622791747
+  }
+ },
+ "gear_hours": {
+  "h_trawl": 134195.0,
+  "h_longline": 1343371.0,
+  "h_squid": 657088.0,
+  "h_seine": 151185.0,
+  "h_other": 1211665.0
+ },
+ "by_year": {
+  "y_nt": {
+   "2019": 367.0,
+   "2020": 235.0,
+   "2021": 364.0,
+   "2022": 259.0,
+   "2023": 103.0,
+   "2024": 247.0,
+   "2025": 269.0
+  },
+  "y_press": {
+   "2019": 503733.0,
+   "2020": 385019.0,
+   "2021": 463365.0,
+   "2022": 676143.0,
+   "2023": 528700.0,
+   "2024": 459141.0,
+   "2025": 471677.0
+  }
+ },
+ "n_cells": 34462,
+ "n_mpas": 22,
+ "n_obs": 186653,
+ "y_nt_total": 1844.4144936305556,
+ "y_press_total": 3487777.627936991,
+ "y_inside_total": 9727.896440311666,
+ "nt_top_mpa": "Islas Diego Ram\u00edrez y Paso Drake",
+ "nt_top_share": 0.8980982615030095,
+ "press_top2_share": 0.8527028404403209,
+ "unreachable_press": 805523.5666067925,
+ "unreachable_share_by_year": {
+  "2019": 0.3738,
+  "2020": 0.2949,
+  "2021": 0.3934,
+  "2022": 0.2687,
+  "2023": 0.0903,
+  "2024": 0.0999,
+  "2025": 0.0931
+ },
+ "unreachable_share_test": 0.1494072652059048,
+ "risk_metrics": [
+  {
+   "region": "coastal_north",
+   "method": "hist12",
+   "spearman": 0.297,
+   "top10_capture": 0.696,
+   "auc_pos": 0.814,
+   "poisson_dev": 5.456
+  },
+  {
+   "region": "coastal_north",
+   "method": "lag12",
+   "spearman": 0.197,
+   "top10_capture": 0.308,
+   "auc_pos": 0.597,
+   "poisson_dev": 20.378
+  },
+  {
+   "region": "coastal_north",
+   "method": "model",
+   "spearman": 0.254,
+   "top10_capture": 0.698,
+   "auc_pos": 0.851,
+   "poisson_dev": 3.084
+  },
+  {
+   "region": "coastal_south",
+   "method": "hist12",
+   "spearman": 0.399,
+   "top10_capture": 0.912,
+   "auc_pos": 0.896,
+   "poisson_dev": 2.05
+  },
+  {
+   "region": "coastal_south",
+   "method": "lag12",
+   "spearman": 0.391,
+   "top10_capture": 0.596,
+   "auc_pos": 0.692,
+   "poisson_dev": 7.714
+  },
+  {
+   "region": "coastal_south",
+   "method": "model",
+   "spearman": 0.285,
+   "top10_capture": 0.934,
+   "auc_pos": 0.953,
+   "poisson_dev": 1.171
+  },
+  {
+   "region": "oceanic",
+   "method": "hist12",
+   "spearman": 0.293,
+   "top10_capture": 0.547,
+   "auc_pos": 0.784,
+   "poisson_dev": 15.344
+  },
+  {
+   "region": "oceanic",
+   "method": "lag12",
+   "spearman": 0.319,
+   "top10_capture": 0.443,
+   "auc_pos": 0.663,
+   "poisson_dev": 49.946
+  },
+  {
+   "region": "oceanic",
+   "method": "model",
+   "spearman": 0.357,
+   "top10_capture": 0.71,
+   "auc_pos": 0.89,
+   "poisson_dev": 8.33
+  }
+ ],
+ "risk_metrics_by_year": [
+  {
+   "region": "coastal_north",
+   "test_year": 2022,
+   "method": "model",
+   "n": 16524,
+   "spearman": 0.3125,
+   "top10_capture": 0.7415,
+   "auc_pos": 0.92,
+   "poisson_dev": 2.0161
+  },
+  {
+   "region": "coastal_north",
+   "test_year": 2022,
+   "method": "hist12",
+   "n": 16524,
+   "spearman": 0.3897,
+   "top10_capture": 0.7794,
+   "auc_pos": 0.8892,
+   "poisson_dev": 2.5289
+  },
+  {
+   "region": "coastal_north",
+   "test_year": 2022,
+   "method": "lag12",
+   "n": 16524,
+   "spearman": 0.2555,
+   "top10_capture": 0.3728,
+   "auc_pos": 0.6326,
+   "poisson_dev": 14.2235
+  },
+  {
+   "region": "coastal_north",
+   "test_year": 2023,
+   "method": "model",
+   "n": 16524,
+   "spearman": 0.1854,
+   "top10_capture": 0.682,
+   "auc_pos": 0.8406,
+   "poisson_dev": 1.413
+  },
+  {
+   "region": "coastal_north",
+   "test_year": 2023,
+   "method": "hist12",
+   "n": 16524,
+   "spearman": 0.2258,
+   "top10_capture": 0.6349,
+   "auc_pos": 0.8063,
+   "poisson_dev": 2.9054
+  },
+  {
+   "region": "coastal_north",
+   "test_year": 2023,
+   "method": "lag12",
+   "n": 16524,
+   "spearman": 0.2297,
+   "top10_capture": 0.4487,
+   "auc_pos": 0.6359,
+   "poisson_dev": 5.8346
+  },
+  {
+   "region": "coastal_north",
+   "test_year": 2024,
+   "method": "model",
+   "n": 16524,
+   "spearman": 0.2415,
+   "top10_capture": 0.7612,
+   "auc_pos": 0.8456,
+   "poisson_dev": 2.2462
+  },
+  {
+   "region": "coastal_north",
+   "test_year": 2024,
+   "method": "hist12",
+   "n": 16524,
+   "spearman": 0.2705,
+   "top10_capture": 0.7727,
+   "auc_pos": 0.7899,
+   "poisson_dev": 4.0115
+  },
+  {
+   "region": "coastal_north",
+   "test_year": 2024,
+   "method": "lag12",
+   "n": 16524,
+   "spearman": 0.1486,
+   "top10_capture": 0.233,
+   "auc_pos": 0.5654,
+   "poisson_dev": 15.402
+  },
+  {
+   "region": "coastal_north",
+   "test_year": 2025,
+   "method": "model",
+   "n": 16524,
+   "spearman": 0.2777,
+   "top10_capture": 0.6093,
+   "auc_pos": 0.7994,
+   "poisson_dev": 6.66
+  },
+  {
+   "region": "coastal_north",
+   "test_year": 2025,
+   "method": "hist12",
+   "n": 16524,
+   "spearman": 0.3018,
+   "top10_capture": 0.598,
+   "auc_pos": 0.7687,
+   "poisson_dev": 12.3776
+  },
+  {
+   "region": "coastal_north",
+   "test_year": 2025,
+   "method": "lag12",
+   "n": 16524,
+   "spearman": 0.1553,
+   "top10_capture": 0.1782,
+   "auc_pos": 0.5553,
+   "poisson_dev": 46.0521
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2022,
+   "method": "model",
+   "n": 126660,
+   "spearman": 0.2914,
+   "top10_capture": 0.9214,
+   "auc_pos": 0.9527,
+   "poisson_dev": 1.3973
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2022,
+   "method": "hist12",
+   "n": 126660,
+   "spearman": 0.4067,
+   "top10_capture": 0.9085,
+   "auc_pos": 0.8976,
+   "poisson_dev": 2.2806
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2022,
+   "method": "lag12",
+   "n": 126660,
+   "spearman": 0.3838,
+   "top10_capture": 0.5607,
+   "auc_pos": 0.684,
+   "poisson_dev": 8.8841
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2023,
+   "method": "model",
+   "n": 126660,
+   "spearman": 0.2842,
+   "top10_capture": 0.9315,
+   "auc_pos": 0.9499,
+   "poisson_dev": 1.1938
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2023,
+   "method": "hist12",
+   "n": 126660,
+   "spearman": 0.3824,
+   "top10_capture": 0.9048,
+   "auc_pos": 0.884,
+   "poisson_dev": 2.2577
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2023,
+   "method": "lag12",
+   "n": 126660,
+   "spearman": 0.3764,
+   "top10_capture": 0.6163,
+   "auc_pos": 0.6901,
+   "poisson_dev": 7.8861
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2024,
+   "method": "model",
+   "n": 126660,
+   "spearman": 0.271,
+   "top10_capture": 0.9407,
+   "auc_pos": 0.9546,
+   "poisson_dev": 1.0461
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2024,
+   "method": "hist12",
+   "n": 126660,
+   "spearman": 0.3874,
+   "top10_capture": 0.9181,
+   "auc_pos": 0.9059,
+   "poisson_dev": 1.7474
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2024,
+   "method": "lag12",
+   "n": 126660,
+   "spearman": 0.36,
+   "top10_capture": 0.5946,
+   "auc_pos": 0.6899,
+   "poisson_dev": 6.9287
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2025,
+   "method": "model",
+   "n": 126660,
+   "spearman": 0.2936,
+   "top10_capture": 0.9428,
+   "auc_pos": 0.9565,
+   "poisson_dev": 1.0473
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2025,
+   "method": "hist12",
+   "n": 126660,
+   "spearman": 0.4206,
+   "top10_capture": 0.9181,
+   "auc_pos": 0.8974,
+   "poisson_dev": 1.9156
+  },
+  {
+   "region": "coastal_south",
+   "test_year": 2025,
+   "method": "lag12",
+   "n": 126660,
+   "spearman": 0.4453,
+   "top10_capture": 0.6122,
+   "auc_pos": 0.7049,
+   "poisson_dev": 7.1556
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2022,
+   "method": "model",
+   "n": 270360,
+   "spearman": 0.3753,
+   "top10_capture": 0.6672,
+   "auc_pos": 0.8888,
+   "poisson_dev": 11.9695
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2022,
+   "method": "hist12",
+   "n": 270360,
+   "spearman": 0.3026,
+   "top10_capture": 0.4706,
+   "auc_pos": 0.7817,
+   "poisson_dev": 19.5595
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2022,
+   "method": "lag12",
+   "n": 270360,
+   "spearman": 0.3513,
+   "top10_capture": 0.4413,
+   "auc_pos": 0.6846,
+   "poisson_dev": 74.1493
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2023,
+   "method": "model",
+   "n": 270360,
+   "spearman": 0.3321,
+   "top10_capture": 0.7301,
+   "auc_pos": 0.8815,
+   "poisson_dev": 7.9263
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2023,
+   "method": "hist12",
+   "n": 270360,
+   "spearman": 0.2797,
+   "top10_capture": 0.571,
+   "auc_pos": 0.7802,
+   "poisson_dev": 14.2626
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2023,
+   "method": "lag12",
+   "n": 270360,
+   "spearman": 0.3274,
+   "top10_capture": 0.5075,
+   "auc_pos": 0.6745,
+   "poisson_dev": 35.6482
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2024,
+   "method": "model",
+   "n": 270360,
+   "spearman": 0.3443,
+   "top10_capture": 0.6946,
+   "auc_pos": 0.8808,
+   "poisson_dev": 7.6284
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2024,
+   "method": "hist12",
+   "n": 270360,
+   "spearman": 0.2702,
+   "top10_capture": 0.5586,
+   "auc_pos": 0.7663,
+   "poisson_dev": 14.7438
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2024,
+   "method": "lag12",
+   "n": 270360,
+   "spearman": 0.2883,
+   "top10_capture": 0.4015,
+   "auc_pos": 0.64,
+   "poisson_dev": 47.2093
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2025,
+   "method": "model",
+   "n": 270360,
+   "spearman": 0.376,
+   "top10_capture": 0.7493,
+   "auc_pos": 0.9071,
+   "poisson_dev": 5.7978
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2025,
+   "method": "hist12",
+   "n": 270360,
+   "spearman": 0.3211,
+   "top10_capture": 0.5876,
+   "auc_pos": 0.8069,
+   "poisson_dev": 12.8106
+  },
+  {
+   "region": "oceanic",
+   "test_year": 2025,
+   "method": "lag12",
+   "n": 270360,
+   "spearman": 0.3091,
+   "top10_capture": 0.4203,
+   "auc_pos": 0.6532,
+   "poisson_dev": 42.7757
+  }
+ ],
+ "gain_importance": [
+  {
+   "feature": "lat",
+   "gain_%": 18.47
+  },
+  {
+   "feature": "sh_squid12",
+   "gain_%": 17.27
+  },
+  {
+   "feature": "nb_lag1",
+   "gain_%": 11.93
+  },
+  {
+   "feature": "area_km2",
+   "gain_%": 8.37
+  },
+  {
+   "feature": "lon",
+   "gain_%": 6.34
+  },
+  {
+   "feature": "roll12",
+   "gain_%": 5.47
+  },
+  {
+   "feature": "msince",
+   "gain_%": 5.05
+  },
+  {
+   "feature": "month",
+   "gain_%": 4.0
+  },
+  {
+   "feature": "month_sin",
+   "gain_%": 3.81
+  },
+  {
+   "feature": "lag12",
+   "gain_%": 3.73
+  },
+  {
+   "feature": "month_cos",
+   "gain_%": 3.67
+  },
+  {
+   "feature": "max12",
+   "gain_%": 3.57
+  }
+ ],
+ "shap_rank": [
+  "msince",
+  "dist_bnd_km",
+  "nb_lag1",
+  "lat",
+  "month_sin",
+  "lon",
+  "month_cos",
+  "area_km2",
+  "roll12",
+  "lag12",
+  "month",
+  "is_ring"
+ ],
+ "plan_seconds": {
+  "S0": 0.527,
+  "S6": 1.738
+ },
+ "nt_realized_per_month_test": 18.292520346236415,
+ "all_realized_per_month_test": 44606.43454383532,
+ "jur_realized_per_month_test": 7068.600219569285,
+ "friedman_S0": {
+  "chi2": 120.40000000000005,
+  "p": 6.328323792359741e-26,
+  "avg_rank": {
+   "hist": 1.667,
+   "random": 3.75,
+   "risk": 1.333,
+   "uniform": 3.25
+  },
+  "CD": 0.6769909424143805,
+  "n": 48
+ },
+ "T3": [
+  {
+   "scenario": "S0",
+   "method": "risk",
+   "IA": 15677.05085,
+   "IA_jur": 4419.45707,
+   "share": 0.35208,
+   "IA_nt": 0.18985,
+   "IA_w": 15677.81026,
+   "IA_per_h": 43.44104,
+   "of_oracle": 0.83966,
+   "flight_h": 360.8811,
+   "blocks": 256.66667,
+   "revisits": 1.4359,
+   "gini": 0.71839,
+   "wins": NaN,
+   "gain_pct": NaN,
+   "ci_lo": NaN,
+   "ci_hi": NaN,
+   "p": NaN,
+   "p_holm": NaN
+  },
+  {
+   "scenario": "S0",
+   "method": "hist",
+   "IA": 15526.96374,
+   "IA_jur": 4334.09939,
+   "share": 0.33614,
+   "IA_nt": 0.03756,
+   "IA_w": 15527.114,
+   "IA_per_h": 42.9732,
+   "of_oracle": 0.83159,
+   "flight_h": 361.31733,
+   "blocks": 199.72917,
+   "revisits": 1.81123,
+   "gini": 0.71075,
+   "wins": 32.0,
+   "gain_pct": 0.96662,
+   "ci_lo": -3.06735,
+   "ci_hi": 4.75613,
+   "p": 0.00437,
+   "p_holm": 0.00437
+  },
+  {
+   "scenario": "S0",
+   "method": "uniform",
+   "IA": 2811.50643,
+   "IA_jur": 2559.82795,
+   "share": 0.1171,
+   "IA_nt": 0.08328,
+   "IA_w": 2811.83954,
+   "IA_per_h": 7.76814,
+   "of_oracle": 0.15059,
+   "flight_h": 361.92767,
+   "blocks": 480.0,
+   "revisits": 1.125,
+   "gini": 0.69432,
+   "wins": 48.0,
+   "gain_pct": 457.60324,
+   "ci_lo": 229.06332,
+   "ci_hi": 726.37528,
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "scenario": "S0",
+   "method": "random",
+   "IA": 2566.62802,
+   "IA_jur": 2145.88673,
+   "share": 0.10121,
+   "IA_nt": 0.46288,
+   "IA_w": 2568.47953,
+   "IA_per_h": 7.11052,
+   "of_oracle": 0.13756,
+   "flight_h": 360.96218,
+   "blocks": 429.68056,
+   "revisits": 1.02983,
+   "gini": 0.69429,
+   "wins": 48.0,
+   "gain_pct": 510.80339,
+   "ci_lo": 274.48734,
+   "ci_hi": 782.78149,
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "scenario": "S0",
+   "method": "oracle",
+   "IA": 18664.34873,
+   "IA_jur": 4960.59469,
+   "share": 0.41409,
+   "IA_nt": 1.81933,
+   "IA_w": 18671.62604,
+   "IA_per_h": 51.73223,
+   "of_oracle": 1.0,
+   "flight_h": 360.78763,
+   "blocks": 120.77083,
+   "revisits": 3.3183,
+   "gini": 0.68709,
+   "wins": NaN,
+   "gain_pct": NaN,
+   "ci_lo": NaN,
+   "ci_hi": NaN,
+   "p": NaN,
+   "p_holm": NaN
+  },
+  {
+   "scenario": "S5",
+   "method": "risk",
+   "IA": 24459.31083,
+   "IA_jur": 6201.49156,
+   "share": 0.55999,
+   "IA_nt": 14.93838,
+   "IA_w": 24519.06435,
+   "IA_per_h": 70.7395,
+   "of_oracle": 0.76369,
+   "flight_h": 345.76594,
+   "blocks": 354.85417,
+   "revisits": 1.33331,
+   "gini": 0.73367,
+   "wins": NaN,
+   "gain_pct": NaN,
+   "ci_lo": NaN,
+   "ci_hi": NaN,
+   "p": NaN,
+   "p_holm": NaN
+  },
+  {
+   "scenario": "S5",
+   "method": "hist",
+   "IA": 22835.31989,
+   "IA_jur": 5958.75958,
+   "share": 0.50054,
+   "IA_nt": 15.00588,
+   "IA_w": 22895.34342,
+   "IA_per_h": 66.00652,
+   "of_oracle": 0.71311,
+   "flight_h": 345.9555,
+   "blocks": 312.25,
+   "revisits": 1.42373,
+   "gini": 0.72739,
+   "wins": 41.0,
+   "gain_pct": 7.11175,
+   "ci_lo": 3.1081,
+   "ci_hi": 13.15024,
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "scenario": "S5",
+   "method": "uniform",
+   "IA": 5522.31704,
+   "IA_jur": 3741.42427,
+   "share": 0.19702,
+   "IA_nt": 12.80391,
+   "IA_w": 5573.53266,
+   "IA_per_h": 16.00816,
+   "of_oracle": 0.1736,
+   "flight_h": 344.96885,
+   "blocks": 674.0,
+   "revisits": 1.09199,
+   "gini": 0.75988,
+   "wins": 48.0,
+   "gain_pct": 342.91754,
+   "ci_lo": 193.9106,
+   "ci_hi": 570.35663,
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "scenario": "S5",
+   "method": "random",
+   "IA": 5390.92282,
+   "IA_jur": 2621.84008,
+   "share": 0.16421,
+   "IA_nt": 7.09398,
+   "IA_w": 5419.29874,
+   "IA_per_h": 15.59869,
+   "of_oracle": 0.16879,
+   "flight_h": 345.60097,
+   "blocks": 590.19444,
+   "revisits": 1.03253,
+   "gini": 0.77495,
+   "wins": 48.0,
+   "gain_pct": 353.71287,
+   "ci_lo": 233.38246,
+   "ci_hi": 515.57071,
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "scenario": "S5",
+   "method": "oracle",
+   "IA": 32035.23191,
+   "IA_jur": 6898.04118,
+   "share": 0.75009,
+   "IA_nt": 17.72366,
+   "IA_w": 32106.12656,
+   "IA_per_h": 92.9555,
+   "of_oracle": 1.0,
+   "flight_h": 344.62975,
+   "blocks": 224.3125,
+   "revisits": 1.94259,
+   "gini": 0.7257,
+   "wins": NaN,
+   "gain_pct": NaN,
+   "ci_lo": NaN,
+   "ci_hi": NaN,
+   "p": NaN,
+   "p_holm": NaN
+  }
+ ],
+ "T4": [
+  {
+   "scenario": "S0",
+   "aircraft": 5,
+   "IA": 15677.05085,
+   "IA_jur": 4419.45707,
+   "delta_pct": 0.0,
+   "ci_lo": NaN,
+   "ci_hi": NaN,
+   "p": NaN,
+   "share": 0.35208,
+   "of_oracle": 0.83966,
+   "IA_nt": 0.18985,
+   "nt_capture": 0.01038,
+   "p_nt": NaN,
+   "flight_h": 360.8811,
+   "sorties": 50.0,
+   "IA_per_h": 43.44104,
+   "gini": 0.71839,
+   "IA_hist": 15526.96374,
+   "IA_oracle": 18664.34873,
+   "risk_vs_hist_pct": 0.96662,
+   "p_holm": NaN,
+   "p_nt_holm": NaN
+  },
+  {
+   "scenario": "S1",
+   "aircraft": 5,
+   "IA": 17827.3334,
+   "IA_jur": 6255.67957,
+   "delta_pct": 13.71612,
+   "ci_lo": 8.8989,
+   "ci_hi": 24.29857,
+   "p": 0.0,
+   "share": 0.43784,
+   "of_oracle": 0.86269,
+   "IA_nt": 14.92151,
+   "nt_capture": 0.81572,
+   "p_nt": 0.0,
+   "flight_h": 361.50382,
+   "sorties": 50.0,
+   "IA_per_h": 49.31437,
+   "gini": 0.72973,
+   "IA_hist": 17654.72039,
+   "IA_oracle": 20662.14792,
+   "risk_vs_hist_pct": 0.97772,
+   "p_holm": 0.0,
+   "p_nt_holm": 0.0
+  },
+  {
+   "scenario": "S2",
+   "aircraft": 5,
+   "IA": 17631.6202,
+   "IA_jur": 6276.24067,
+   "delta_pct": 12.46771,
+   "ci_lo": 7.81184,
+   "ci_hi": 22.79052,
+   "p": 0.0,
+   "share": 0.43624,
+   "of_oracle": 0.855,
+   "IA_nt": 14.99128,
+   "nt_capture": 0.81953,
+   "p_nt": 0.0,
+   "flight_h": 361.5952,
+   "sorties": 50.0,
+   "IA_per_h": 48.76066,
+   "gini": 0.73008,
+   "IA_hist": 17609.59987,
+   "IA_oracle": 20620.3785,
+   "risk_vs_hist_pct": 0.12505,
+   "p_holm": 0.0,
+   "p_nt_holm": 0.0
+  },
+  {
+   "scenario": "S3",
+   "aircraft": 5,
+   "IA": 16960.61355,
+   "IA_jur": 4093.75393,
+   "delta_pct": 8.18753,
+   "ci_lo": 1.99649,
+   "ci_hi": 17.00595,
+   "p": 0.00258,
+   "share": 0.39907,
+   "of_oracle": 0.67762,
+   "IA_nt": 0.17316,
+   "nt_capture": 0.00947,
+   "p_nt": 1.0,
+   "flight_h": 345.03707,
+   "sorties": 48.0,
+   "IA_per_h": 49.15592,
+   "gini": 0.70691,
+   "IA_hist": 15348.47477,
+   "IA_oracle": 25026.41194,
+   "risk_vs_hist_pct": 10.50358,
+   "p_holm": 0.00258,
+   "p_nt_holm": 1.0
+  },
+  {
+   "scenario": "S4",
+   "aircraft": 5,
+   "IA": 20487.59454,
+   "IA_jur": 4554.02708,
+   "delta_pct": 30.68526,
+   "ci_lo": 17.46108,
+   "ci_hi": 44.27869,
+   "p": 0.0,
+   "share": 0.41862,
+   "of_oracle": 0.88677,
+   "IA_nt": 0.09785,
+   "nt_capture": 0.00535,
+   "p_nt": 0.6875,
+   "flight_h": 361.04024,
+   "sorties": 50.0,
+   "IA_per_h": 56.74601,
+   "gini": 0.72961,
+   "IA_hist": 20149.77474,
+   "IA_oracle": 23096.16675,
+   "risk_vs_hist_pct": 1.67654,
+   "p_holm": 0.0,
+   "p_nt_holm": 1.0
+  },
+  {
+   "scenario": "S5",
+   "aircraft": 5,
+   "IA": 24459.31083,
+   "IA_jur": 6201.49156,
+   "delta_pct": 56.01985,
+   "ci_lo": 43.78871,
+   "ci_hi": 73.56863,
+   "p": 0.0,
+   "share": 0.55999,
+   "of_oracle": 0.76369,
+   "IA_nt": 14.93838,
+   "nt_capture": 0.81664,
+   "p_nt": 0.0,
+   "flight_h": 345.76594,
+   "sorties": 48.0,
+   "IA_per_h": 70.7395,
+   "gini": 0.73367,
+   "IA_hist": 22835.31989,
+   "IA_oracle": 32035.23191,
+   "risk_vs_hist_pct": 7.11175,
+   "p_holm": 0.0,
+   "p_nt_holm": 0.0
+  },
+  {
+   "scenario": "S6",
+   "aircraft": 9,
+   "IA": 25238.41939,
+   "IA_jur": 6572.63128,
+   "delta_pct": 60.98959,
+   "ci_lo": 48.18978,
+   "ci_hi": 79.55502,
+   "p": 0.0,
+   "share": 0.58507,
+   "of_oracle": 0.78237,
+   "IA_nt": 15.87355,
+   "nt_capture": 0.86776,
+   "p_nt": 0.0,
+   "flight_h": 628.06511,
+   "sorties": 88.0,
+   "IA_per_h": 40.1844,
+   "gini": 0.7584,
+   "IA_hist": 23797.12344,
+   "IA_oracle": 32267.88626,
+   "risk_vs_hist_pct": 6.0566,
+   "p_holm": 0.0,
+   "p_nt_holm": 0.0
+  }
+ ],
+ "oracle_S6_vs_S5_pct": 0.726245256841751,
+ "example_month": "2025-03",
+ "T7": [
+  {
+   "scenario": "S0",
+   "months": 48.0,
+   "UB": 19005.03229,
+   "oracle_of_UB": 0.98246,
+   "oracle_of_UB_min": 0.9341,
+   "oracle_of_UB_median": 0.98045,
+   "risk_of_UB": 0.82493,
+   "hist_of_UB": 0.817
+  },
+  {
+   "scenario": "S5",
+   "months": 48.0,
+   "UB": 33798.71198,
+   "oracle_of_UB": 0.94992,
+   "oracle_of_UB_min": 0.86623,
+   "oracle_of_UB_median": 0.94805,
+   "risk_of_UB": 0.72544,
+   "hist_of_UB": 0.6774
+  }
+ ],
+ "T8": [
+  {
+   "plat": "C295",
+   "m": 8,
+   "instances": 100,
+   "mean_ratio": 0.99977,
+   "min_ratio": 0.98107,
+   "optimal_pct": 97.0,
+   "mean_ratio_single": 0.98907
+  },
+  {
+   "plat": "C295",
+   "m": 11,
+   "instances": 100,
+   "mean_ratio": 0.99828,
+   "min_ratio": 0.97213,
+   "optimal_pct": 91.0,
+   "mean_ratio_single": 0.99058
+  },
+  {
+   "plat": "C295",
+   "m": 14,
+   "instances": 100,
+   "mean_ratio": 0.99486,
+   "min_ratio": 0.91624,
+   "optimal_pct": 78.0,
+   "mean_ratio_single": 0.98676
+  },
+  {
+   "plat": "P3",
+   "m": 8,
+   "instances": 100,
+   "mean_ratio": 0.9968,
+   "min_ratio": 0.87439,
+   "optimal_pct": 93.0,
+   "mean_ratio_single": 0.97397
+  },
+  {
+   "plat": "P3",
+   "m": 11,
+   "instances": 100,
+   "mean_ratio": 0.99543,
+   "min_ratio": 0.90278,
+   "optimal_pct": 83.0,
+   "mean_ratio_single": 0.97936
+  },
+  {
+   "plat": "P3",
+   "m": 14,
+   "instances": 100,
+   "mean_ratio": 0.9947,
+   "min_ratio": 0.90126,
+   "optimal_pct": 82.0,
+   "mean_ratio_single": 0.96749
+  },
+  {
+   "plat": "all",
+   "m": 0,
+   "instances": 600,
+   "mean_ratio": 0.99664,
+   "min_ratio": 0.87439,
+   "optimal_pct": 87.33333,
+   "mean_ratio_single": 0.9812
+  }
+ ],
+ "basing": {
+  "name": "IPC:1P + IQQ:2C + PMC:1C + PUQ:1P",
+  "is_S5": false,
+  "IA_sel": 9265.571559835142,
+  "nt_capture_sel": 0.926656588647016,
+  "IA_test": 24765.323856021732,
+  "nt_capture_test": 0.8403452355483076,
+  "rank_test": 5,
+  "IA_test_S0": 15435.83671932954,
+  "IA_test_S5": 24288.3236006264,
+  "nt_capture_test_S5": 0.8273010040483492,
+  "delta_vs_S0_pct": 60.44043679866951,
+  "ci_vs_S0": [
+   45.85525791227556,
+   80.98508134015964
+  ],
+  "p_vs_S0": 3.552713678800501e-15,
+  "delta_vs_S5_pct": 1.9639076917726372,
+  "ci_vs_S5": [
+   0.5713544441151691,
+   3.5479884033843607
+  ],
+  "expost_best": "IPC:1P + IQQ:2C + PUQ:1C + TQM:1P",
+  "IA_test_expost_best": 25468.306943020463,
+  "regret_pct": 2.7602270090881786,
+  "rank_S0": 336,
+  "rank_S5": 14,
+  "rank_S0_w": 336,
+  "rank_S5_w": 14,
+  "rank_test_S0": 227,
+  "rank_test_S5": 11,
+  "n_deployments": 336,
+  "n_pareto": 12,
+  "pareto": [
+   "IPC:1P + IQQ:2C + PMC:1C + PUQ:1P",
+   "IPC:1P + IQQ:1C + PMC:1C + PUQ:1P + TQM:1C",
+   "IPC:1P + IQQ:1C + PMC:1C + PUQ:1P + THN:1C",
+   "IPC:1P + PUQ:2C + PWM:1C + TQM:1P",
+   "IPC:1P + PMC:2C + PUQ:1P + THN:1C",
+   "IPC:1P + PMC:1C + PUQ:1P + PWM:1C + THN:1C",
+   "IQQ:1C + PMC:1C + PUQ:2P + THN:1C",
+   "IQQ:1C + PMC:2C + PUQ:2P",
+   "PMC:1C + PUQ:2P + TQM:2C",
+   "PMC:1C + PUQ:2P + THN:1C + TQM:1C",
+   "PMC:2C + PUQ:2P + TQM:1C",
+   "PMC:2C + PUQ:2P + THN:1C"
+  ],
+  "spearman_sel_test": 0.4367743731533093,
+  "n_oos": 336,
+  "IA_sel_min": 3828.5859440272475,
+  "IA_sel_median": 6525.687348856677,
+  "IA_sel_max": 9265.571559835142,
+  "IA_test_min": 4830.584761297454,
+  "IA_test_median": 17527.224087149014,
+  "IA_test_max": 25468.306943020463,
+  "share_below_S0": 0.0,
+  "share_below_S0_test": 0.3244047619047619
+ },
+ "blocksize_n": {
+  "blocks of 0.4 deg": 6596,
+  "blocks of 0.8 deg": 1744
+ },
+ "T6": [
+  {
+   "variant": "baseline",
+   "IA_S0": 15677.05085,
+   "IA_S5": 24459.31083,
+   "gain_S5_pct": 56.01985,
+   "ci_lo": 43.78871,
+   "ci_hi": 73.56863,
+   "nt_capture_S0": 0.01038,
+   "nt_capture_S5": 0.81664,
+   "share_S0": 0.35208,
+   "share_S5": 0.55999,
+   "flight_h_S0": 360.8811,
+   "flight_h_S5": 345.76594
+  },
+  {
+   "variant": "PMIN=0.6",
+   "IA_S0": 15579.09442,
+   "IA_S5": 24210.16566,
+   "gain_S5_pct": 55.40162,
+   "ci_lo": 42.06344,
+   "ci_hi": 73.72279,
+   "nt_capture_S0": 0.01383,
+   "nt_capture_S5": 0.81543,
+   "share_S0": 0.34923,
+   "share_S5": 0.55929,
+   "flight_h_S0": 362.11026,
+   "flight_h_S5": 346.71743
+  },
+  {
+   "variant": "PMIN=0.9",
+   "IA_S0": 15582.22596,
+   "IA_S5": 23931.81369,
+   "gain_S5_pct": 53.58405,
+   "ci_lo": 40.84402,
+   "ci_hi": 71.28412,
+   "nt_capture_S0": 0.0054,
+   "nt_capture_S5": 0.82299,
+   "share_S0": 0.34612,
+   "share_S5": 0.5421,
+   "flight_h_S0": 359.41985,
+   "flight_h_S5": 344.74876
+  },
+  {
+   "variant": "presence=0.5",
+   "IA_S0": 11428.46108,
+   "IA_S5": 16697.99589,
+   "gain_S5_pct": 46.10887,
+   "ci_lo": 32.02674,
+   "ci_hi": 64.16707,
+   "nt_capture_S0": 0.00045,
+   "nt_capture_S5": 0.73391,
+   "share_S0": 0.27225,
+   "share_S5": 0.40018,
+   "flight_h_S0": 361.72344,
+   "flight_h_S5": 346.27264
+  },
+  {
+   "variant": "reserve=0.25",
+   "IA_S0": 15632.32187,
+   "IA_S5": 23582.09442,
+   "gain_S5_pct": 50.85471,
+   "ci_lo": 38.68642,
+   "ci_hi": 67.93994,
+   "nt_capture_S0": 0.00137,
+   "nt_capture_S5": 0.81762,
+   "share_S0": 0.3504,
+   "share_S5": 0.54256,
+   "flight_h_S0": 336.98124,
+   "flight_h_S5": 321.91136
+  },
+  {
+   "variant": "sorties=6",
+   "IA_S0": 13808.58936,
+   "IA_S5": 20736.31009,
+   "gain_S5_pct": 50.16965,
+   "ci_lo": 34.94346,
+   "ci_hi": 67.56785,
+   "nt_capture_S0": 0.00137,
+   "nt_capture_S5": 0.79864,
+   "share_S0": 0.315,
+   "share_S5": 0.48145,
+   "flight_h_S0": 216.6889,
+   "flight_h_S5": 217.07896
+  },
+  {
+   "variant": "sorties=14",
+   "IA_S0": 16708.35615,
+   "IA_S5": 25692.30816,
+   "gain_S5_pct": 53.76922,
+   "ci_lo": 41.90165,
+   "ci_hi": 70.49062,
+   "nt_capture_S0": 0.03545,
+   "nt_capture_S5": 0.8334,
+   "share_S0": 0.37324,
+   "share_S5": 0.58705,
+   "flight_h_S0": 505.07775,
+   "flight_h_S5": 444.9422
+  },
+  {
+   "variant": "IPC group tier",
+   "IA_S0": 15677.05085,
+   "IA_S5": 25223.7368,
+   "gain_S5_pct": 60.89593,
+   "ci_lo": 47.65837,
+   "ci_hi": 79.56046,
+   "nt_capture_S0": 0.01038,
+   "nt_capture_S5": 0.81664,
+   "share_S0": 0.35208,
+   "share_S5": 0.58094,
+   "flight_h_S0": 360.8811,
+   "flight_h_S5": 361.64229
+  },
+  {
+   "variant": "weight=1",
+   "IA_S0": 15688.16359,
+   "IA_S5": 24477.50356,
+   "gain_S5_pct": 56.0253,
+   "ci_lo": 43.9234,
+   "ci_hi": 73.44803,
+   "nt_capture_S0": 0.00137,
+   "nt_capture_S5": 0.80926,
+   "share_S0": 0.35244,
+   "share_S5": 0.56051,
+   "flight_h_S0": 360.99085,
+   "flight_h_S5": 345.92285
+  },
+  {
+   "variant": "weight=20",
+   "IA_S0": 15486.63391,
+   "IA_S5": 24097.04948,
+   "gain_S5_pct": 55.59901,
+   "ci_lo": 43.66835,
+   "ci_hi": 72.98074,
+   "nt_capture_S0": 0.02258,
+   "nt_capture_S5": 0.8442,
+   "share_S0": 0.34477,
+   "share_S5": 0.55051,
+   "flight_h_S0": 360.78598,
+   "flight_h_S5": 345.74262
+  },
+  {
+   "variant": "cover bonus=0.5",
+   "IA_S0": 15699.17765,
+   "IA_S5": 24356.53243,
+   "gain_S5_pct": 55.14528,
+   "ci_lo": 43.55628,
+   "ci_hi": 72.56457,
+   "nt_capture_S0": 0.00993,
+   "nt_capture_S5": 0.81483,
+   "share_S0": 0.35123,
+   "share_S5": 0.55872,
+   "flight_h_S0": 360.91167,
+   "flight_h_S5": 345.78119
+  },
+  {
+   "variant": "radius -25%",
+   "IA_S0": 4507.93339,
+   "IA_S5": 14510.17809,
+   "gain_S5_pct": 221.88093,
+   "ci_lo": 149.829,
+   "ci_hi": 298.62568,
+   "nt_capture_S0": 0.04729,
+   "nt_capture_S5": 0.84283,
+   "share_S0": 0.17658,
+   "share_S5": 0.42821,
+   "flight_h_S0": 361.68728,
+   "flight_h_S5": 346.24107
+  },
+  {
+   "variant": "radius +25%",
+   "IA_S0": 18489.80559,
+   "IA_S5": 25773.48448,
+   "gain_S5_pct": 39.39294,
+   "ci_lo": 32.18057,
+   "ci_hi": 49.83417,
+   "nt_capture_S0": 0.00509,
+   "nt_capture_S5": 0.81326,
+   "share_S0": 0.39932,
+   "share_S5": 0.57553,
+   "flight_h_S0": 360.41018,
+   "flight_h_S5": 345.58735
+  },
+  {
+   "variant": "no radius limit",
+   "IA_S0": 18926.50778,
+   "IA_S5": 25624.89869,
+   "gain_S5_pct": 35.39158,
+   "ci_lo": 27.28177,
+   "ci_hi": 45.78413,
+   "nt_capture_S0": 0.00137,
+   "nt_capture_S5": 0.81195,
+   "share_S0": 0.40251,
+   "share_S5": 0.57318,
+   "flight_h_S0": 360.20126,
+   "flight_h_S5": 345.47442
+  },
+  {
+   "variant": "sweep -25%",
+   "IA_S0": 14921.93515,
+   "IA_S5": 22505.77034,
+   "gain_S5_pct": 50.8234,
+   "ci_lo": 36.85826,
+   "ci_hi": 70.24024,
+   "nt_capture_S0": 0.00091,
+   "nt_capture_S5": 0.80643,
+   "share_S0": 0.33353,
+   "share_S5": 0.51695,
+   "flight_h_S0": 359.7984,
+   "flight_h_S5": 345.22599
+  },
+  {
+   "variant": "sweep +25%",
+   "IA_S0": 16322.17934,
+   "IA_S5": 25501.78835,
+   "gain_S5_pct": 56.24009,
+   "ci_lo": 43.3808,
+   "ci_hi": 74.4282,
+   "nt_capture_S0": 0.01262,
+   "nt_capture_S5": 0.82998,
+   "share_S0": 0.36404,
+   "share_S5": 0.58688,
+   "flight_h_S0": 361.50634,
+   "flight_h_S5": 346.2519
+  },
+  {
+   "variant": "search speed 80%",
+   "IA_S0": 15184.30029,
+   "IA_S5": 23148.17152,
+   "gain_S5_pct": 52.44806,
+   "ci_lo": 39.35279,
+   "ci_hi": 69.84612,
+   "nt_capture_S0": 0.00137,
+   "nt_capture_S5": 0.81032,
+   "share_S0": 0.33932,
+   "share_S5": 0.53151,
+   "flight_h_S0": 360.20621,
+   "flight_h_S5": 345.37566
+  },
+  {
+   "variant": "blocks of 0.4 deg",
+   "IA_S0": 15794.92495,
+   "IA_S5": 23670.028,
+   "gain_S5_pct": 49.85844,
+   "ci_lo": 39.38572,
+   "ci_hi": 64.96713,
+   "nt_capture_S0": 0.013,
+   "nt_capture_S5": 0.82869,
+   "share_S0": 0.35427,
+   "share_S5": 0.54633,
+   "flight_h_S0": 362.73014,
+   "flight_h_S5": 347.10953
+  },
+  {
+   "variant": "blocks of 0.8 deg",
+   "IA_S0": 16275.28457,
+   "IA_S5": 24177.46296,
+   "gain_S5_pct": 48.55324,
+   "ci_lo": 38.72611,
+   "ci_hi": 64.00056,
+   "nt_capture_S0": 0.01203,
+   "nt_capture_S5": 0.83772,
+   "share_S0": 0.35642,
+   "share_S5": 0.55952,
+   "flight_h_S0": 357.46435,
+   "flight_h_S5": 344.01577
+  }
+ ],
+ "T12": [
+  {
+   "variant": "all rings (baseline)",
+   "cells": 34462,
+   "realized_h": 44606.43454,
+   "IA_S0": 15677.05085,
+   "share_S0": 0.35145,
+   "IA_S5": 24459.31083,
+   "share_S5": 0.54834,
+   "gain_S5": 56.01985,
+   "gain_S5_lo": 43.78871,
+   "gain_S5_hi": 73.56863,
+   "risk_vs_hist_S0": 0.96662,
+   "rvh0_lo": -3.06735,
+   "rvh0_hi": 4.75613,
+   "risk_vs_hist_S5": 7.11175,
+   "rvh5_lo": 3.1081,
+   "rvh5_hi": 13.15024,
+   "of_oracle_S0": 0.83966,
+   "of_oracle_S5": 0.76369,
+   "nt_capture_S0": 0.01038,
+   "nt_capture_S5": 0.81664,
+   "best": "IPC:1P + IQQ:2C + PMC:1C + PUQ:1P",
+   "rank_S0_sel": 336,
+   "IA_best": 24894.03086,
+   "gain_best": 58.79282,
+   "gain_best_lo": 45.25445,
+   "gain_best_hi": 78.25993,
+   "nt_capture_best": 0.83431
+  },
+  {
+   "variant": "rings <= 200 km",
+   "cells": 19421,
+   "realized_h": 6470.54407,
+   "IA_S0": 3149.63529,
+   "share_S0": 0.48677,
+   "IA_S5": 5755.99295,
+   "share_S5": 0.88957,
+   "gain_S5": 82.75109,
+   "gain_S5_lo": 63.2411,
+   "gain_S5_hi": 105.42178,
+   "risk_vs_hist_S0": 1.39638,
+   "rvh0_lo": -0.29759,
+   "rvh0_hi": 3.43199,
+   "risk_vs_hist_S5": 6.26876,
+   "rvh5_lo": 3.37426,
+   "rvh5_hi": 9.40529,
+   "of_oracle_S0": 0.92394,
+   "of_oracle_S5": 0.90204,
+   "nt_capture_S0": 0.07188,
+   "nt_capture_S5": 0.89644,
+   "best": "IPC:1P + IQQ:1C + PMC:1C + PUQ:1C + TQM:1P",
+   "rank_S0_sel": 329,
+   "IA_best": 5827.53673,
+   "gain_best": 85.02259,
+   "gain_best_lo": 65.56259,
+   "gain_best_hi": 107.6449,
+   "nt_capture_best": 0.9057
+  },
+  {
+   "variant": "rings <= 100 km",
+   "cells": 13843,
+   "realized_h": 3752.29647,
+   "IA_S0": 1505.30412,
+   "share_S0": 0.40117,
+   "IA_S5": 3499.07528,
+   "share_S5": 0.93252,
+   "gain_S5": 132.44972,
+   "gain_S5_lo": 94.41801,
+   "gain_S5_hi": 183.5298,
+   "risk_vs_hist_S0": 0.92602,
+   "rvh0_lo": -1.75932,
+   "rvh0_hi": 4.01248,
+   "risk_vs_hist_S5": 1.9843,
+   "rvh5_lo": 0.06305,
+   "rvh5_hi": 4.15085,
+   "of_oracle_S0": 0.93615,
+   "of_oracle_S5": 0.93501,
+   "nt_capture_S0": 0.09184,
+   "nt_capture_S5": 0.9063,
+   "best": "IPC:1P + IQQ:1C + PUQ:1C + PWM:1C + TQM:1P",
+   "rank_S0_sel": 322,
+   "IA_best": 3533.54115,
+   "gain_best": 134.73935,
+   "gain_best_lo": 95.95133,
+   "gain_best_hi": 186.95012,
+   "nt_capture_best": 0.91556
+  },
+  {
+   "variant": "within 200 nm of a coast",
+   "cells": 16406,
+   "realized_h": 7068.60022,
+   "IA_S0": 4785.2853,
+   "share_S0": 0.67698,
+   "IA_S5": 6645.49504,
+   "share_S5": 0.94014,
+   "gain_S5": 38.87354,
+   "gain_S5_lo": 29.79714,
+   "gain_S5_hi": 51.93381,
+   "risk_vs_hist_S0": 0.17379,
+   "rvh0_lo": -1.74142,
+   "rvh0_hi": 1.92274,
+   "risk_vs_hist_S5": 1.43325,
+   "rvh5_lo": 0.44889,
+   "rvh5_hi": 2.59585,
+   "of_oracle_S0": 0.94139,
+   "of_oracle_S5": 0.94177,
+   "nt_capture_S0": 0.03714,
+   "nt_capture_S5": 0.8422,
+   "best": "IQQ:2C + PMC:1C + PUQ:1P + TQM:1P",
+   "rank_S0_sel": 308,
+   "IA_best": 6867.87653,
+   "gain_best": 43.52073,
+   "gain_best_lo": 34.29734,
+   "gain_best_hi": 56.8995,
+   "nt_capture_best": 0.88356
+  },
+  {
+   "variant": "high seas only",
+   "cells": 18056,
+   "realized_h": 37537.83432,
+   "IA_S0": 12267.56983,
+   "share_S0": 0.32681,
+   "IA_S5": 19144.17762,
+   "share_S5": 0.51,
+   "gain_S5": 56.05518,
+   "gain_S5_lo": 40.89725,
+   "gain_S5_hi": 85.13837,
+   "risk_vs_hist_S0": 2.31415,
+   "rvh0_lo": -0.80801,
+   "rvh0_hi": 6.01829,
+   "risk_vs_hist_S5": 7.90721,
+   "rvh5_lo": 2.95843,
+   "rvh5_hi": 17.98885,
+   "of_oracle_S0": 0.88482,
+   "of_oracle_S5": 0.75602,
+   "nt_capture_S0": NaN,
+   "nt_capture_S5": NaN,
+   "best": "IPC:1P + IQQ:2C + TQM:1P,1C",
+   "rank_S0_sel": 212,
+   "IA_best": 20544.50458,
+   "gain_best": 67.47004,
+   "gain_best_lo": 49.84683,
+   "gain_best_hi": 102.49773,
+   "nt_capture_best": NaN
+  }
+ ],
+ "T13": [
+  {
+   "predictor": "lag1",
+   "IA_S0": 12991.33669,
+   "risk_gain_S0": 20.67312,
+   "lo_S0": 7.64019,
+   "hi_S0": 35.57119,
+   "wins_S0": 43,
+   "IA_S5": 19692.72341,
+   "risk_gain_S5": 24.20482,
+   "lo_S5": 13.18503,
+   "hi_S5": 37.89301,
+   "wins_S5": 44,
+   "spearman_block": 0.48468,
+   "top10_capture_block": 0.63729
+  },
+  {
+   "predictor": "roll3",
+   "IA_S0": 14352.75284,
+   "risk_gain_S0": 9.22679,
+   "lo_S0": 0.0519,
+   "hi_S0": 22.10208,
+   "wins_S0": 37,
+   "IA_S5": 21062.94418,
+   "risk_gain_S5": 16.12484,
+   "lo_S5": 7.72861,
+   "hi_S5": 25.54638,
+   "wins_S5": 42,
+   "spearman_block": 0.42248,
+   "top10_capture_block": 0.60495
+  },
+  {
+   "predictor": "exp. smoothing",
+   "IA_S0": 15603.7307,
+   "risk_gain_S0": 0.46989,
+   "lo_S0": -3.93807,
+   "hi_S0": 4.227,
+   "wins_S0": 34,
+   "IA_S5": 22623.82924,
+   "risk_gain_S5": 8.11305,
+   "lo_S5": 3.13675,
+   "hi_S5": 14.35535,
+   "wins_S5": 39,
+   "spearman_block": 0.4046,
+   "top10_capture_block": 0.62654
+  },
+  {
+   "predictor": "hist12, data to t-2",
+   "IA_S0": 14869.67132,
+   "risk_gain_S0": 5.42971,
+   "lo_S0": -0.22262,
+   "hi_S0": 12.7014,
+   "wins_S0": 36,
+   "IA_S5": 21955.32322,
+   "risk_gain_S5": 11.40492,
+   "lo_S5": 6.1984,
+   "hi_S5": 18.5468,
+   "wins_S5": 42,
+   "spearman_block": 0.40627,
+   "top10_capture_block": 0.58568
+  },
+  {
+   "predictor": "risk model, data to t-2",
+   "IA_S0": 15453.04339,
+   "risk_gain_S0": 1.4496,
+   "lo_S0": -3.46018,
+   "hi_S0": 7.28018,
+   "wins_S0": 34,
+   "IA_S5": 23995.27412,
+   "risk_gain_S5": 1.93387,
+   "lo_S5": -0.74551,
+   "hi_S5": 6.13017,
+   "wins_S5": 29,
+   "spearman_block": 0.46743,
+   "top10_capture_block": 0.7086
+  }
+ ],
+ "T13a": [
+  {
+   "predictor": "lag1",
+   "region": "coastal_north",
+   "spearman": 0.2556,
+   "top10_capture": 0.4485,
+   "auc_pos": 0.6277
+  },
+  {
+   "predictor": "lag1",
+   "region": "coastal_south",
+   "spearman": 0.3975,
+   "top10_capture": 0.6425,
+   "auc_pos": 0.6997
+  },
+  {
+   "predictor": "lag1",
+   "region": "oceanic",
+   "spearman": 0.3305,
+   "top10_capture": 0.505,
+   "auc_pos": 0.6665
+  },
+  {
+   "predictor": "roll3",
+   "region": "coastal_north",
+   "spearman": 0.2673,
+   "top10_capture": 0.5743,
+   "auc_pos": 0.7004
+  },
+  {
+   "predictor": "roll3",
+   "region": "coastal_south",
+   "spearman": 0.3867,
+   "top10_capture": 0.7709,
+   "auc_pos": 0.7749
+  },
+  {
+   "predictor": "roll3",
+   "region": "oceanic",
+   "spearman": 0.2903,
+   "top10_capture": 0.5305,
+   "auc_pos": 0.7064
+  },
+  {
+   "predictor": "exp. smoothing",
+   "region": "coastal_north",
+   "spearman": 0.265,
+   "top10_capture": 0.7,
+   "auc_pos": 0.8411
+  },
+  {
+   "predictor": "exp. smoothing",
+   "region": "coastal_south",
+   "spearman": 0.345,
+   "top10_capture": 0.9015,
+   "auc_pos": 0.9319
+  },
+  {
+   "predictor": "exp. smoothing",
+   "region": "oceanic",
+   "spearman": 0.286,
+   "top10_capture": 0.5651,
+   "auc_pos": 0.8051
+  },
+  {
+   "predictor": "hist12, data to t-2",
+   "region": "coastal_north",
+   "spearman": 0.2899,
+   "top10_capture": 0.6773,
+   "auc_pos": 0.8076
+  },
+  {
+   "predictor": "hist12, data to t-2",
+   "region": "coastal_south",
+   "spearman": 0.3926,
+   "top10_capture": 0.8945,
+   "auc_pos": 0.8896
+  },
+  {
+   "predictor": "hist12, data to t-2",
+   "region": "oceanic",
+   "spearman": 0.2851,
+   "top10_capture": 0.5146,
+   "auc_pos": 0.7761
+  },
+  {
+   "predictor": "risk model, data to t-2",
+   "region": "coastal_north",
+   "spearman": 0.2409,
+   "top10_capture": 0.6867,
+   "auc_pos": 0.8426
+  },
+  {
+   "predictor": "risk model, data to t-2",
+   "region": "coastal_south",
+   "spearman": 0.2832,
+   "top10_capture": 0.9103,
+   "auc_pos": 0.9486
+  },
+  {
+   "predictor": "risk model, data to t-2",
+   "region": "oceanic",
+   "spearman": 0.3467,
+   "top10_capture": 0.6639,
+   "auc_pos": 0.8783
+  },
+  {
+   "predictor": "risk model",
+   "region": "coastal_north",
+   "spearman": 0.2543,
+   "top10_capture": 0.6985,
+   "auc_pos": 0.8514
+  },
+  {
+   "predictor": "risk model",
+   "region": "coastal_south",
+   "spearman": 0.285,
+   "top10_capture": 0.9341,
+   "auc_pos": 0.9534
+  },
+  {
+   "predictor": "risk model",
+   "region": "oceanic",
+   "spearman": 0.3569,
+   "top10_capture": 0.7103,
+   "auc_pos": 0.8895
+  },
+  {
+   "predictor": "hist12",
+   "region": "coastal_north",
+   "spearman": 0.2969,
+   "top10_capture": 0.6963,
+   "auc_pos": 0.8135
+  },
+  {
+   "predictor": "hist12",
+   "region": "coastal_south",
+   "spearman": 0.3993,
+   "top10_capture": 0.9124,
+   "auc_pos": 0.8962
+  },
+  {
+   "predictor": "hist12",
+   "region": "oceanic",
+   "spearman": 0.2934,
+   "top10_capture": 0.5469,
+   "auc_pos": 0.7838
+  }
+ ],
+ "T13b": [
+  {
+   "predictor": "risk model",
+   "spearman_block": 0.4805,
+   "top10_capture_block": 0.7505
+  },
+  {
+   "predictor": "hist12",
+   "spearman_block": 0.4147,
+   "top10_capture_block": 0.6154
+  },
+  {
+   "predictor": "lag1",
+   "spearman_block": 0.4847,
+   "top10_capture_block": 0.6373
+  },
+  {
+   "predictor": "roll3",
+   "spearman_block": 0.4225,
+   "top10_capture_block": 0.6049
+  },
+  {
+   "predictor": "exp. smoothing",
+   "spearman_block": 0.4046,
+   "top10_capture_block": 0.6265
+  },
+  {
+   "predictor": "hist12, data to t-2",
+   "spearman_block": 0.4063,
+   "top10_capture_block": 0.5857
+  },
+  {
+   "predictor": "risk model, data to t-2",
+   "spearman_block": 0.4674,
+   "top10_capture_block": 0.7086
+  }
+ ],
+ "T14": [
+  {
+   "config": "full",
+   "scenario": "S*",
+   "reward": "hist",
+   "months": 24.0,
+   "of_UB": 0.93707,
+   "of_UB_min": 0.89152
+  },
+  {
+   "config": "full",
+   "scenario": "S*",
+   "reward": "oracle",
+   "months": 24.0,
+   "of_UB": 0.95105,
+   "of_UB_min": 0.86643
+  },
+  {
+   "config": "full",
+   "scenario": "S*",
+   "reward": "risk",
+   "months": 24.0,
+   "of_UB": 0.91446,
+   "of_UB_min": 0.83647
+  },
+  {
+   "config": "full",
+   "scenario": "S0",
+   "reward": "hist",
+   "months": 24.0,
+   "of_UB": 0.95817,
+   "of_UB_min": 0.9412
+  },
+  {
+   "config": "full",
+   "scenario": "S0",
+   "reward": "oracle",
+   "months": 24.0,
+   "of_UB": 0.98271,
+   "of_UB_min": 0.9341
+  },
+  {
+   "config": "full",
+   "scenario": "S0",
+   "reward": "risk",
+   "months": 24.0,
+   "of_UB": 0.93718,
+   "of_UB_min": 0.88213
+  },
+  {
+   "config": "full",
+   "scenario": "S5",
+   "reward": "hist",
+   "months": 24.0,
+   "of_UB": 0.92317,
+   "of_UB_min": 0.87586
+  },
+  {
+   "config": "full",
+   "scenario": "S5",
+   "reward": "oracle",
+   "months": 24.0,
+   "of_UB": 0.94573,
+   "of_UB_min": 0.86623
+  },
+  {
+   "config": "full",
+   "scenario": "S5",
+   "reward": "risk",
+   "months": 24.0,
+   "of_UB": 0.89888,
+   "of_UB_min": 0.83234
+  },
+  {
+   "config": "full",
+   "scenario": "S6",
+   "reward": "hist",
+   "months": 24.0,
+   "of_UB": 0.93586,
+   "of_UB_min": 0.89091
+  },
+  {
+   "config": "full",
+   "scenario": "S6",
+   "reward": "oracle",
+   "months": 24.0,
+   "of_UB": 0.94994,
+   "of_UB_min": 0.8655
+  },
+  {
+   "config": "full",
+   "scenario": "S6",
+   "reward": "risk",
+   "months": 24.0,
+   "of_UB": 0.90884,
+   "of_UB_min": 0.83676
+  },
+  {
+   "config": "q=0.5",
+   "scenario": "S0",
+   "reward": "oracle",
+   "months": 12.0,
+   "of_UB": 0.93133,
+   "of_UB_min": 0.88279
+  },
+  {
+   "config": "q=0.5",
+   "scenario": "S5",
+   "reward": "oracle",
+   "months": 12.0,
+   "of_UB": 0.91404,
+   "of_UB_min": 0.8611
+  },
+  {
+   "config": "screening",
+   "scenario": "S0",
+   "reward": "oracle",
+   "months": 24.0,
+   "of_UB": 0.98147,
+   "of_UB_min": 0.92921
+  },
+  {
+   "config": "screening",
+   "scenario": "S5",
+   "reward": "oracle",
+   "months": 24.0,
+   "of_UB": 0.94317,
+   "of_UB_min": 0.86698
+  }
+ ],
+ "T14_levels": [
+  {
+   "levels": 10,
+   "UB_rel": 0.99526
+  },
+  {
+   "levels": 4,
+   "UB_rel": 1.00463
+  },
+  {
+   "levels": 8,
+   "UB_rel": 0.99728
+  }
+ ],
+ "T14_uniform": [
+  {
+   "scenario": "S0",
+   "months": 12,
+   "of_UB": 0.7017025380442966,
+   "of_UB_min": 0.7017025380442965
+  },
+  {
+   "scenario": "S5",
+   "months": 12,
+   "of_UB": 0.7179451513006979,
+   "of_UB_min": 0.7179451513006978
+  }
+ ],
+ "lp_ablation": {
+  "far_only_rel": 1.004605815852072,
+  "near_only_rel": 1.0238654468524668,
+  "months": 12
+ },
+ "T15": [
+  {
+   "size": "12 blocks",
+   "instances": 40,
+   "sorties": 4.0,
+   "routes": 136.1,
+   "heur_mean": 0.99929,
+   "heur_min": 0.99131,
+   "heur_optimal_pct": 65.0,
+   "lp_over_opt_mean": 1.04491,
+   "lp_over_opt_max": 1.25247
+  },
+  {
+   "size": "16 blocks",
+   "instances": 20,
+   "sorties": 8.0,
+   "routes": 1862.0,
+   "heur_mean": 0.99867,
+   "heur_min": 0.98566,
+   "heur_optimal_pct": 45.0,
+   "lp_over_opt_mean": 1.00894,
+   "lp_over_opt_max": 1.10304
+  }
+ ],
+ "T15b": [
+  {
+   "reward": "oracle",
+   "plat": "C295",
+   "instances": 144,
+   "mean": 0.83772,
+   "p10": 0.72721,
+   "min": 0.59568
+  },
+  {
+   "reward": "oracle",
+   "plat": "P3",
+   "instances": 72,
+   "mean": 0.77787,
+   "p10": 0.65398,
+   "min": 0.57906
+  },
+  {
+   "reward": "risk",
+   "plat": "C295",
+   "instances": 144,
+   "mean": 0.82677,
+   "p10": 0.71248,
+   "min": 0.59147
+  },
+  {
+   "reward": "risk",
+   "plat": "P3",
+   "instances": 72,
+   "mean": 0.75555,
+   "p10": 0.64203,
+   "min": 0.54193
+  }
+ ],
+ "T15c": [
+  {
+   "L": 40,
+   "instances": 24,
+   "proven": 23,
+   "blocks": 8.45833,
+   "heur_mean": 0.96676,
+   "heur_min": 0.86112,
+   "heur_optimal_pct": 37.5,
+   "certified_min": 0.75209,
+   "sec_mean": 11.69983,
+   "sec_max": 60.01579
+  },
+  {
+   "L": 60,
+   "instances": 24,
+   "proven": 20,
+   "blocks": 8.625,
+   "heur_mean": 0.9757,
+   "heur_min": 0.84491,
+   "heur_optimal_pct": 50.0,
+   "certified_min": 0.41659,
+   "sec_mean": 68.21507,
+   "sec_max": 180.04154
+  },
+  {
+   "L": 300,
+   "instances": 8,
+   "proven": 2,
+   "blocks": 10.25,
+   "heur_mean": 0.99473,
+   "heur_min": 0.95786,
+   "heur_optimal_pct": 87.5,
+   "certified_min": 0.53299,
+   "sec_mean": 370.03293,
+   "sec_max": 450.20922
+  }
+ ],
+ "exact_op_list_growth": {
+  "40->60": 0.001414203380897039,
+  "60->300": -0.01347102606069972
+ },
+ "star_full": {
+  "name": "IPC:1P + IQQ:2C + PMC:1C + PUQ:1P",
+  "IA": 24894.030860731928,
+  "share": 0.5580816112139212,
+  "nt_capture": 0.8343091719462187,
+  "IA_jur": 6397.759843997286,
+  "flight_h": 345.63913040529,
+  "of_oracle": 0.7903433863767099,
+  "delta_vs_S0": 58.792818252218716,
+  "ci_vs_S0": [
+   45.254445371612256,
+   78.259934538029
+  ],
+  "delta_vs_S5": 1.7773192084023393,
+  "ci_vs_S5": [
+   0.4916025563825033,
+   3.1551738737524535
+  ],
+  "risk_vs_hist": 5.215984431736054,
+  "ci_risk_vs_hist": [
+   1.1130225093267545,
+   10.853651314348435
+  ]
+ },
+ "intensive": {
+  "change_pct": {
+   "S0|risk": 1.0519488089720808,
+   "S0|hist": -0.7752249084406526,
+   "S5|risk": -0.27573671858376336,
+   "S5|hist": 0.34219978482135094,
+   "S*|risk": 1.6972583916429862,
+   "S*|hist": -0.2675674638866865
+  },
+  "risk_vs_hist_S0": {
+   "base": 0.9666223942597529,
+   "heavy": 2.8258713429673232,
+   "heavy_ci": [
+    -0.328682016552711,
+    5.688384556886338
+   ]
+  },
+  "risk_vs_hist_S5": {
+   "base": 7.111750336129341,
+   "heavy": 6.452124967956752,
+   "heavy_ci": [
+    2.468701962164806,
+    12.137767116417239
+   ]
+  },
+  "S5_vs_S0": {
+   "base": 56.019847533093035,
+   "heavy": 53.969958381793816,
+   "heavy_ci": [
+    40.69553493676425,
+    71.9374527345214
+   ]
+  },
+  "Sstar_vs_S0": {
+   "base": 58.792818252218716,
+   "heavy": 59.80685636316287,
+   "heavy_ci": [
+    44.828939947610216,
+    81.46027570739584
+   ]
+  },
+  "Sstar_vs_S5": {
+   "base": 1.7773192084023393,
+   "heavy": 3.7909330123318874,
+   "heavy_ci": [
+    1.3392605986110446,
+    7.050193539763726
+   ]
+  }
+ },
+ "coverage_indicator": {
+  "spearman_cov_IA_sel": 0.9340115177347749,
+  "spearman_cov_IA_test": 0.9294624227208358,
+  "n_max_coverage": 11,
+  "IA_test_min_maxcov": 23729.538609099865,
+  "IA_test_max_maxcov": 25468.306943020463,
+  "rank_test_best_maxcov": 1,
+  "rank_test_worst_maxcov": 20,
+  "nt_capture_min_maxcov": 0.8114728951390043,
+  "nt_capture_max_maxcov": 0.8439573089978426,
+  "IA_test_range_all": [
+   4830.584761297454,
+   25468.306943020463
+  ],
+  "seasonal_gain_pct": -0.09065342331633364,
+  "seasonal_ci": [
+   -0.3773787410388979,
+   0.16418538919705444
+  ]
+ },
+ "rolling_selection": [
+  {
+   "select_on": 2022,
+   "evaluate_in": 2023,
+   "selected": "IPC:1P + IQQ:2C + PUQ:1C + TQM:1P",
+   "rank": 2,
+   "regret_pct": 0.5096229136964281,
+   "gain_vs_S0": 70.49161103057196,
+   "rank_Sstar": 5,
+   "rank_S0": 231,
+   "nt_capture": 0.5748485717657773
+  },
+  {
+   "select_on": 2023,
+   "evaluate_in": 2024,
+   "selected": "IPC:1P + IQQ:2C + PWM:1C + TQM:1P",
+   "rank": 1,
+   "regret_pct": 0.0,
+   "gain_vs_S0": 63.09810980127701,
+   "rank_Sstar": 8,
+   "rank_S0": 195,
+   "nt_capture": 0.768064423200017
+  },
+  {
+   "select_on": 2024,
+   "evaluate_in": 2025,
+   "selected": "IPC:1P + IQQ:2C + PWM:1C + TQM:1P",
+   "rank": 2,
+   "regret_pct": 0.4087731514668569,
+   "gain_vs_S0": 47.09192106180691,
+   "rank_Sstar": 5,
+   "rank_S0": 195,
+   "nt_capture": 0.8936140488823093
+  }
+ ],
+ "bootstrap_blocks": [
+  {
+   "comparison": "risk vs historical, S0",
+   "gain": 0.9666223942597529,
+   "b3_lo": -3.067349243528605,
+   "b3_hi": 4.756125134335299,
+   "b6_lo": -2.8284948190910053,
+   "b6_hi": 3.955555612787296,
+   "b12_lo": -2.451493483701604,
+   "b12_hi": 2.302643387244899
+  },
+  {
+   "comparison": "risk vs historical, S5",
+   "gain": 7.111750336129341,
+   "b3_lo": 3.108101284114362,
+   "b3_hi": 13.150244654181323,
+   "b6_lo": 3.7885506363027632,
+   "b6_hi": 11.678708113135409,
+   "b12_lo": 3.98250217781591,
+   "b12_hi": 9.676569030775505
+  },
+  {
+   "comparison": "S5 vs S0",
+   "gain": 56.019847533093035,
+   "b3_lo": 43.78871352993729,
+   "b3_hi": 73.56862754769003,
+   "b6_lo": 45.83086521113525,
+   "b6_hi": 72.25525671196544,
+   "b12_lo": 46.53509303450959,
+   "b12_hi": 65.86894067789973
+  },
+  {
+   "comparison": "S* vs S0",
+   "gain": 58.792818252218716,
+   "b3_lo": 45.254445371612256,
+   "b3_hi": 78.259934538029,
+   "b6_lo": 47.308741275526216,
+   "b6_hi": 76.56943668018882,
+   "b12_lo": 48.22764622923441,
+   "b12_hi": 69.3872060116283
+  },
+  {
+   "comparison": "S* vs S5",
+   "gain": 1.7773192084023393,
+   "b3_lo": 0.4916025563825033,
+   "b3_hi": 3.1551738737524535,
+   "b6_lo": 0.7590791066803443,
+   "b6_hi": 2.7648132214272856,
+   "b12_lo": 0.9055007354591865,
+   "b12_hi": 2.2379342205980577
+  }
+ ],
+ "persistence": {
+  "block_months": 19062,
+  "presence_mean": 0.20468918630505156,
+  "presence_effort_weighted": 0.5520772608788791,
+  "active_days_effort_weighted": 16.841538801735425,
+  "presence_quartiles_effort_weighted": [
+   0.3225806451612903,
+   0.5483870967741935,
+   0.8
+  ],
+  "vessel_days_in_block_mean": 2.9537286443519375,
+  "vessel_days_in_block_effort_weighted": 6.224752817232913,
+  "share_effort_vessels_3plus_days": 0.7768977284431458,
+  "share_effort_vessels_7plus_days": 0.3501638174057007,
+  "vessels_per_month": 279.5208333333333,
+  "daily_vs_monthly_hours": 0.9957426928249847
+ },
+ "fleet_by_year": {
+  "rows": [
+   {
+    "year": 2021,
+    "hours": 403908.15625,
+    "vessels": 649,
+    "vessel_days": 62728,
+    "hours_beyond_reach": 171847.546875,
+    "vessels_beyond_reach": 402,
+    "hours_per_vessel_day": 6.44
+   },
+   {
+    "year": 2022,
+    "hours": 612057.5,
+    "vessels": 659,
+    "vessel_days": 82614,
+    "hours_beyond_reach": 150754.171875,
+    "vessels_beyond_reach": 414,
+    "hours_per_vessel_day": 7.41
+   },
+   {
+    "year": 2023,
+    "hours": 467389.84375,
+    "vessels": 713,
+    "vessel_days": 69616,
+    "hours_beyond_reach": 39120.6484375,
+    "vessels_beyond_reach": 421,
+    "hours_per_vessel_day": 6.71
+   },
+   {
+    "year": 2024,
+    "hours": 400725.4375,
+    "vessels": 802,
+    "vessel_days": 63375,
+    "hours_beyond_reach": 38910.26171875,
+    "vessels_beyond_reach": 349,
+    "hours_per_vessel_day": 6.32
+   },
+   {
+    "year": 2025,
+    "hours": 401539.875,
+    "vessels": 733,
+    "vessel_days": 64066,
+    "hours_beyond_reach": 38985.55078125,
+    "vessels_beyond_reach": 417,
+    "hours_per_vessel_day": 6.27
+   }
+  ],
+  "vessels_beyond_reach_to_2022": 624,
+  "share_of_them_seen_within_reach_2023on": 0.657051282051282,
+  "share_of_within_reach_effort_2023on_from_them": 0.35925114154815674
+ },
+ "daily_coverage_share": 0.980993259265519,
+ "T16": [
+  {
+   "scenario": "S*",
+   "method": "hist",
+   "IA_model": 23614.84429,
+   "IA_dated": 9046.28224,
+   "IA_vessel": 24802.79039,
+   "vessels": 116.08229,
+   "vessels_total": 279.52083,
+   "encounters": 226.05,
+   "dated_over_model": 0.38308,
+   "share_dated": 0.20367,
+   "share_vessel": 0.55841,
+   "vessel_share": 0.41529
+  },
+  {
+   "scenario": "S*",
+   "method": "oracle",
+   "IA_model": 31225.01853,
+   "IA_dated": 13856.30966,
+   "IA_vessel": 33139.95463,
+   "vessels": 157.85439,
+   "vessels_total": 279.52083,
+   "encounters": 385.86667,
+   "dated_over_model": 0.44376,
+   "share_dated": 0.31196,
+   "share_vessel": 0.74612,
+   "vessel_share": 0.56473
+  },
+  {
+   "scenario": "S*",
+   "method": "risk",
+   "IA_model": 24815.53329,
+   "IA_dated": 9502.56381,
+   "IA_vessel": 26463.82917,
+   "vessels": 123.30499,
+   "vessels_total": 279.52083,
+   "encounters": 241.41667,
+   "dated_over_model": 0.38293,
+   "share_dated": 0.21394,
+   "share_vessel": 0.59581,
+   "vessel_share": 0.44113
+  },
+  {
+   "scenario": "S*",
+   "method": "uniform",
+   "IA_model": 8109.57391,
+   "IA_dated": 2603.28815,
+   "IA_vessel": 6683.16597,
+   "vessels": 36.31863,
+   "vessels_total": 279.52083,
+   "encounters": 48.65,
+   "dated_over_model": 0.32101,
+   "share_dated": 0.05861,
+   "share_vessel": 0.15047,
+   "vessel_share": 0.12993
+  },
+  {
+   "scenario": "S0",
+   "method": "hist",
+   "IA_model": 15487.18807,
+   "IA_dated": 6056.57272,
+   "IA_vessel": 18493.97189,
+   "vessels": 88.80791,
+   "vessels_total": 279.52083,
+   "encounters": 161.5,
+   "dated_over_model": 0.39107,
+   "share_dated": 0.13636,
+   "share_vessel": 0.41638,
+   "vessel_share": 0.31771
+  },
+  {
+   "scenario": "S0",
+   "method": "oracle",
+   "IA_model": 18330.23564,
+   "IA_dated": 9179.40457,
+   "IA_vessel": 22597.16619,
+   "vessels": 113.79573,
+   "vessels_total": 279.52083,
+   "encounters": 287.8,
+   "dated_over_model": 0.50078,
+   "share_dated": 0.20667,
+   "share_vessel": 0.50876,
+   "vessel_share": 0.40711
+  },
+  {
+   "scenario": "S0",
+   "method": "risk",
+   "IA_model": 15587.38741,
+   "IA_dated": 5903.42249,
+   "IA_vessel": 17739.53396,
+   "vessels": 83.89524,
+   "vessels_total": 279.52083,
+   "encounters": 152.58333,
+   "dated_over_model": 0.37873,
+   "share_dated": 0.13291,
+   "share_vessel": 0.39939,
+   "vessel_share": 0.30014
+  },
+  {
+   "scenario": "S0",
+   "method": "risk, presence-aware",
+   "IA_model": NaN,
+   "IA_dated": 6737.90955,
+   "IA_vessel": 18781.03773,
+   "vessels": 94.91344,
+   "vessels_total": 279.52083,
+   "encounters": 231.95,
+   "dated_over_model": NaN,
+   "share_dated": 0.1517,
+   "share_vessel": 0.42284,
+   "vessel_share": 0.33956
+  },
+  {
+   "scenario": "S0",
+   "method": "uniform",
+   "IA_model": 2697.63896,
+   "IA_dated": 708.75744,
+   "IA_vessel": 1703.53154,
+   "vessels": 14.32382,
+   "vessels_total": 279.52083,
+   "encounters": 20.75,
+   "dated_over_model": 0.26273,
+   "share_dated": 0.01596,
+   "share_vessel": 0.03835,
+   "vessel_share": 0.05124
+  },
+  {
+   "scenario": "S5",
+   "method": "hist",
+   "IA_model": 22811.17359,
+   "IA_dated": 8298.47033,
+   "IA_vessel": 24058.30649,
+   "vessels": 109.14905,
+   "vessels_total": 279.52083,
+   "encounters": 196.31667,
+   "dated_over_model": 0.36379,
+   "share_dated": 0.18683,
+   "share_vessel": 0.54165,
+   "vessel_share": 0.39049
+  },
+  {
+   "scenario": "S5",
+   "method": "oracle",
+   "IA_model": 31596.51014,
+   "IA_dated": 13127.4256,
+   "IA_vessel": 32715.51197,
+   "vessels": 150.19104,
+   "vessels_total": 279.52083,
+   "encounters": 346.03333,
+   "dated_over_model": 0.41547,
+   "share_dated": 0.29555,
+   "share_vessel": 0.73656,
+   "vessel_share": 0.53732
+  },
+  {
+   "scenario": "S5",
+   "method": "risk",
+   "IA_model": 24377.38621,
+   "IA_dated": 8288.46316,
+   "IA_vessel": 24415.91674,
+   "vessels": 110.8123,
+   "vessels_total": 279.52083,
+   "encounters": 199.65,
+   "dated_over_model": 0.34001,
+   "share_dated": 0.18661,
+   "share_vessel": 0.5497,
+   "vessel_share": 0.39644
+  },
+  {
+   "scenario": "S5",
+   "method": "risk, presence-aware",
+   "IA_model": NaN,
+   "IA_dated": 9096.79675,
+   "IA_vessel": 24926.49401,
+   "vessels": 119.61171,
+   "vessels_total": 279.52083,
+   "encounters": 259.25,
+   "dated_over_model": NaN,
+   "share_dated": 0.20481,
+   "share_vessel": 0.5612,
+   "vessel_share": 0.42792
+  },
+  {
+   "scenario": "S5",
+   "method": "uniform",
+   "IA_model": 5362.13436,
+   "IA_dated": 1673.76995,
+   "IA_vessel": 4934.94648,
+   "vessels": 27.97423,
+   "vessels_total": 279.52083,
+   "encounters": 36.41667,
+   "dated_over_model": 0.31215,
+   "share_dated": 0.03768,
+   "share_vessel": 0.11111,
+   "vessel_share": 0.10008
+  }
+ ],
+ "T16c": [
+  {
+   "comparison": "S5 vs S0 (risk)",
+   "metric": "IA_dated",
+   "gain": 40.401,
+   "lo": 24.3899,
+   "hi": 60.4549,
+   "wins": 46
+  },
+  {
+   "comparison": "S5 vs S0 (risk)",
+   "metric": "IA_vessel",
+   "gain": 37.6356,
+   "lo": 26.2194,
+   "hi": 58.0276,
+   "wins": 47
+  },
+  {
+   "comparison": "S5 vs S0 (risk)",
+   "metric": "vessels",
+   "gain": 32.0841,
+   "lo": 22.7691,
+   "hi": 45.8451,
+   "wins": 45
+  },
+  {
+   "comparison": "S* vs S0 (risk)",
+   "metric": "IA_dated",
+   "gain": 60.967,
+   "lo": 44.0674,
+   "hi": 80.7499,
+   "wins": 48
+  },
+  {
+   "comparison": "S* vs S0 (risk)",
+   "metric": "IA_vessel",
+   "gain": 49.18,
+   "lo": 37.8248,
+   "hi": 68.1749,
+   "wins": 48
+  },
+  {
+   "comparison": "S* vs S0 (risk)",
+   "metric": "vessels",
+   "gain": 46.9749,
+   "lo": 35.881,
+   "hi": 62.1193,
+   "wins": 48
+  },
+  {
+   "comparison": "risk vs historical, S0",
+   "metric": "IA_dated",
+   "gain": -2.5287,
+   "lo": -9.5451,
+   "hi": 7.8051,
+   "wins": 21
+  },
+  {
+   "comparison": "risk vs historical, S0",
+   "metric": "IA_vessel",
+   "gain": -4.0794,
+   "lo": -11.0477,
+   "hi": 3.2226,
+   "wins": 22
+  },
+  {
+   "comparison": "risk vs historical, S0",
+   "metric": "vessels",
+   "gain": -5.5318,
+   "lo": -13.1068,
+   "hi": 3.9256,
+   "wins": 15
+  },
+  {
+   "comparison": "risk vs historical, S5",
+   "metric": "IA_dated",
+   "gain": -0.1206,
+   "lo": -5.593,
+   "hi": 7.7591,
+   "wins": 26
+  },
+  {
+   "comparison": "risk vs historical, S5",
+   "metric": "IA_vessel",
+   "gain": 1.4864,
+   "lo": -3.419,
+   "hi": 8.2496,
+   "wins": 26
+  },
+  {
+   "comparison": "risk vs historical, S5",
+   "metric": "vessels",
+   "gain": 1.5238,
+   "lo": -5.1645,
+   "hi": 9.3234,
+   "wins": 26
+  },
+  {
+   "comparison": "presence-aware vs baseline plan, S0",
+   "metric": "IA_dated",
+   "gain": 14.1356,
+   "lo": -1.5964,
+   "hi": 29.89,
+   "wins": 42
+  },
+  {
+   "comparison": "presence-aware vs baseline plan, S0",
+   "metric": "IA_vessel",
+   "gain": 5.8711,
+   "lo": -4.4349,
+   "hi": 14.2645,
+   "wins": 32
+  },
+  {
+   "comparison": "presence-aware vs baseline plan, S0",
+   "metric": "vessels",
+   "gain": 13.1333,
+   "lo": 2.7991,
+   "hi": 21.6533,
+   "wins": 42
+  },
+  {
+   "comparison": "presence-aware vs baseline plan, S5",
+   "metric": "IA_dated",
+   "gain": 9.7525,
+   "lo": 2.5859,
+   "hi": 16.3594,
+   "wins": 38
+  },
+  {
+   "comparison": "presence-aware vs baseline plan, S5",
+   "metric": "IA_vessel",
+   "gain": 2.0912,
+   "lo": -1.2721,
+   "hi": 4.8564,
+   "wins": 32
+  },
+  {
+   "comparison": "presence-aware vs baseline plan, S5",
+   "metric": "vessels",
+   "gain": 7.9408,
+   "lo": 4.2592,
+   "hi": 12.4277,
+   "wins": 38
+  },
+  {
+   "comparison": "risk vs uniform, S0",
+   "metric": "IA_dated",
+   "gain": 732.9257,
+   "lo": 389.674,
+   "hi": 1193.4188,
+   "wins": 48
+  },
+  {
+   "comparison": "risk vs uniform, S0",
+   "metric": "IA_vessel",
+   "gain": 941.3387,
+   "lo": 433.9317,
+   "hi": 1598.0396,
+   "wins": 48
+  },
+  {
+   "comparison": "risk vs uniform, S0",
+   "metric": "vessels",
+   "gain": 485.7045,
+   "lo": 260.3974,
+   "hi": 782.4753,
+   "wins": 48
+  }
+ ],
+ "notake_detail": {
+  "hours": 2216.1364620447225,
+  "vessels": 51,
+  "vessel_days": 592,
+  "by_site": [
+   {
+    "mpa_name": "Islas Diego Ram\u00edrez y Paso Drake",
+    "hours": 2110.6,
+    "vessels": 10,
+    "days": 410
+   },
+   {
+    "mpa_name": "Mar de Juan Fern\u00e1ndez (PN)",
+    "hours": 9.8,
+    "vessels": 9,
+    "days": 7
+   },
+   {
+    "mpa_name": "Motu Motiro Hiva",
+    "hours": 0.1,
+    "vessels": 1,
+    "days": 1
+   },
+   {
+    "mpa_name": "Nazca-Desventuradas",
+    "hours": 72.0,
+    "vessels": 24,
+    "days": 27
+   },
+   {
+    "mpa_name": "Tictoc-Golfo Corcovado",
+    "hours": 23.6,
+    "vessels": 7,
+    "days": 12
+   }
+  ],
+  "by_flag": [
+   {
+    "flag": "CHL",
+    "hours": 2131.8,
+    "vessels": 17
+   },
+   {
+    "flag": "CHN",
+    "hours": 63.1,
+    "vessels": 27
+   },
+   {
+    "flag": "JPN",
+    "hours": 7.0,
+    "vessels": 2
+   },
+   {
+    "flag": "NAM",
+    "hours": 5.6,
+    "vessels": 1
+   },
+   {
+    "flag": "COK",
+    "hours": 4.0,
+    "vessels": 1
+   },
+   {
+    "flag": "RUS",
+    "hours": 3.6,
+    "vessels": 1
+   },
+   {
+    "flag": "ESP",
+    "hours": 1.1,
+    "vessels": 2
+   }
+  ],
+  "by_gear": {
+   "SET_LONGLINES": 2007.5,
+   "TRAWLERS": 106.7,
+   "SQUID_JIGGER": 60.6,
+   "INCONCLUSIVE": 14.6,
+   "OTHER_PURSE_SEINES": 13.0,
+   "DRIFTING_LONGLINES": 11.3,
+   "POLE_AND_LINE": 2.5
+  },
+  "by_year": [
+   {
+    "year": 2021,
+    "hours": 561.8,
+    "vessels": 21
+   },
+   {
+    "year": 2022,
+    "hours": 558.8,
+    "vessels": 13
+   },
+   {
+    "year": 2023,
+    "hours": 243.7,
+    "vessels": 17
+   },
+   {
+    "year": 2024,
+    "hours": 411.0,
+    "vessels": 10
+   },
+   {
+    "year": 2025,
+    "hours": 440.8,
+    "vessels": 11
+   }
+  ],
+  "top5_vessels_share": 0.890595120357361,
+  "hours_per_vessel_day_median": 2.4699999999999998,
+  "share_hours_in_vessel_days_under_2h": 0.10560961815822173
+ },
+ "sar": {
+  "unmatched": 52041.0,
+  "matched": 37289.0,
+  "blocks_with_detections": 467,
+  "spearman_block_ais_vs_unmatched": 0.5185446322508029,
+  "share_unmatched_in_top_decile_ais_blocks": 0.2707672796448954,
+  "by_region": {
+   "coastal_north": {
+    "unmatched": 7485.0,
+    "matched": 3753.0
+   },
+   "coastal_south": {
+    "unmatched": 26184.0,
+    "matched": 19853.0
+   },
+   "oceanic": {
+    "unmatched": 18372.0,
+    "matched": 13683.0
+   }
+  },
+  "unmatched_per_test_month": 525.9375,
+  "intercepted_share": {
+   "S0|risk": 0.7266403580907109,
+   "S0|hist": 0.6551867791134878,
+   "S0|uniform": 0.4891460930876247,
+   "S5|risk": 0.7047484793028322,
+   "S5|hist": 0.6311099500099029,
+   "S5|uniform": 0.41411303307585656,
+   "S*|risk": 0.8281072687660923,
+   "S*|hist": 0.7887815432495814,
+   "S*|uniform": 0.7108666714200833
+  }
+ },
+ "T17": [
+  {
+   "scenario": "S0",
+   "sigma": 0.0,
+   "IA": 15677.05085,
+   "loss_pct": 0.0,
+   "overlap": NaN
+  },
+  {
+   "scenario": "S0",
+   "sigma": 0.25,
+   "IA": 15504.21122,
+   "loss_pct": 1.1025,
+   "overlap": 0.73288
+  },
+  {
+   "scenario": "S0",
+   "sigma": 0.5,
+   "IA": 15366.75835,
+   "loss_pct": 1.97928,
+   "overlap": 0.60438
+  },
+  {
+   "scenario": "S0",
+   "sigma": 1.0,
+   "IA": 14891.82597,
+   "loss_pct": 5.00875,
+   "overlap": 0.44127
+  },
+  {
+   "scenario": "S5",
+   "sigma": 0.0,
+   "IA": 24459.31083,
+   "loss_pct": 0.0,
+   "overlap": NaN
+  },
+  {
+   "scenario": "S5",
+   "sigma": 0.25,
+   "IA": 24059.1541,
+   "loss_pct": 1.63601,
+   "overlap": 0.70946
+  },
+  {
+   "scenario": "S5",
+   "sigma": 0.5,
+   "IA": 23445.31002,
+   "loss_pct": 4.14566,
+   "overlap": 0.59349
+  },
+  {
+   "scenario": "S5",
+   "sigma": 1.0,
+   "IA": 21882.77722,
+   "loss_pct": 10.53396,
+   "overlap": 0.42065
+  }
+ ],
+ "inside_by_gear": [
+  {
+   "mpa_name": "Tortel",
+   "hours": 5331.731,
+   "cell_months": 690,
+   "vessels_cell_month_mean": 1.263,
+   "h_trawl": 302.224,
+   "h_longline": 3949.61,
+   "h_squid": 0.0,
+   "h_seine": 0.904,
+   "h_other": 1078.993,
+   "top_gear": "longline",
+   "top_gear_share": 0.741
+  },
+  {
+   "mpa_name": "Islas Diego Ram\u00edrez y Paso Drake",
+   "hours": 1656.465,
+   "cell_months": 335,
+   "vessels_cell_month_mean": 1.161,
+   "h_trawl": 331.79,
+   "h_longline": 1324.676,
+   "h_squid": 0.0,
+   "h_seine": 0.0,
+   "h_other": 0.0,
+   "top_gear": "longline",
+   "top_gear_share": 0.8
+  },
+  {
+   "mpa_name": "Kaw\u00e9sqar (RN)",
+   "hours": 1447.272,
+   "cell_months": 367,
+   "vessels_cell_month_mean": 1.308,
+   "h_trawl": 4.477,
+   "h_longline": 777.088,
+   "h_squid": 0.0,
+   "h_seine": 16.017,
+   "h_other": 649.69,
+   "top_gear": "longline",
+   "top_gear_share": 0.537
+  },
+  {
+   "mpa_name": "Mar de Pisagua",
+   "hours": 794.398,
+   "cell_months": 102,
+   "vessels_cell_month_mean": 2.804,
+   "h_trawl": 0.0,
+   "h_longline": 0.0,
+   "h_squid": 0.0,
+   "h_seine": 792.31,
+   "h_other": 2.088,
+   "top_gear": "seine",
+   "top_gear_share": 0.997
+  },
+  {
+   "mpa_name": "Rapa Nui",
+   "hours": 162.181,
+   "cell_months": 55,
+   "vessels_cell_month_mean": 1.255,
+   "h_trawl": 0.503,
+   "h_longline": 161.678,
+   "h_squid": 0.0,
+   "h_seine": 0.0,
+   "h_other": 0.0,
+   "top_gear": "longline",
+   "top_gear_share": 0.997
+  },
+  {
+   "mpa_name": "Nazca-Desventuradas",
+   "hours": 137.905,
+   "cell_months": 82,
+   "vessels_cell_month_mean": 1.244,
+   "h_trawl": 0.0,
+   "h_longline": 42.322,
+   "h_squid": 2.185,
+   "h_seine": 0.0,
+   "h_other": 93.399,
+   "top_gear": "other",
+   "top_gear_share": 0.677
+  },
+  {
+   "mpa_name": "Archipi\u00e9lago de Humboldt",
+   "hours": 111.786,
+   "cell_months": 34,
+   "vessels_cell_month_mean": 1.265,
+   "h_trawl": 0.0,
+   "h_longline": 7.635,
+   "h_squid": 0.0,
+   "h_seine": 48.279,
+   "h_other": 55.872,
+   "top_gear": "other",
+   "top_gear_share": 0.5
+  },
+  {
+   "mpa_name": "Tictoc-Golfo Corcovado",
+   "hours": 26.643,
+   "cell_months": 23,
+   "vessels_cell_month_mean": 1.087,
+   "h_trawl": 0.0,
+   "h_longline": 0.0,
+   "h_squid": 0.0,
+   "h_seine": 16.479,
+   "h_other": 10.164,
+   "top_gear": "seine",
+   "top_gear_share": 0.619
+  },
+  {
+   "mpa_name": "Mar de Juan Fern\u00e1ndez (PN)",
+   "hours": 22.813,
+   "cell_months": 46,
+   "vessels_cell_month_mean": 1.109,
+   "h_trawl": 0.0,
+   "h_longline": 4.551,
+   "h_squid": 0.0,
+   "h_seine": 9.098,
+   "h_other": 9.164,
+   "top_gear": "other",
+   "top_gear_share": 0.402
+  },
+  {
+   "mpa_name": "Francisco Coloane (AM)",
+   "hours": 15.822,
+   "cell_months": 10,
+   "vessels_cell_month_mean": 1.0,
+   "h_trawl": 0.0,
+   "h_longline": 3.634,
+   "h_squid": 0.0,
+   "h_seine": 0.263,
+   "h_other": 11.925,
+   "top_gear": "other",
+   "top_gear_share": 0.754
+  },
+  {
+   "mpa_name": "Punta Morro - Desembocadura R\u00edo Copiap\u00f3 - Isla grande de Atacama",
+   "hours": 12.729,
+   "cell_months": 4,
+   "vessels_cell_month_mean": 1.0,
+   "h_trawl": 0.0,
+   "h_longline": 2.175,
+   "h_squid": 0.0,
+   "h_seine": 10.553,
+   "h_other": 0.0,
+   "top_gear": "seine",
+   "top_gear_share": 0.829
+  },
+  {
+   "mpa_name": "Mar de Juan Fern\u00e1ndez",
+   "hours": 6.781,
+   "cell_months": 9,
+   "vessels_cell_month_mean": 1.111,
+   "h_trawl": 0.0,
+   "h_longline": 0.0,
+   "h_squid": 0.0,
+   "h_seine": 1.511,
+   "h_other": 5.27,
+   "top_gear": "other",
+   "top_gear_share": 0.777
+  },
+  {
+   "mpa_name": "Isla Cha\u00f1aral",
+   "hours": 0.783,
+   "cell_months": 1,
+   "vessels_cell_month_mean": 1.0,
+   "h_trawl": 0.0,
+   "h_longline": 0.783,
+   "h_squid": 0.0,
+   "h_seine": 0.0,
+   "h_other": 0.0,
+   "top_gear": "longline",
+   "top_gear_share": 1.0
+  },
+  {
+   "mpa_name": "Motu Motiro Hiva",
+   "hours": 0.587,
+   "cell_months": 3,
+   "vessels_cell_month_mean": 1.333,
+   "h_trawl": 0.0,
+   "h_longline": 0.587,
+   "h_squid": 0.0,
+   "h_seine": 0.0,
+   "h_other": 0.0,
+   "top_gear": "longline",
+   "top_gear_share": 1.0
+  }
+ ],
+ "by_year_detail": [
+  {
+   "year": 2019,
+   "all_hours": 505203.3,
+   "h_trawl": 20048.1,
+   "h_longline": 130990.9,
+   "h_squid": 87142.5,
+   "h_seine": 21236.9,
+   "h_other": 245784.9,
+   "active_cell_months": 22526,
+   "hours_per_active_cell_month": 22.4,
+   "beyond_reach": 188841.2,
+   "beyond_reach_squid": 45434.4
+  },
+  {
+   "year": 2020,
+   "all_hours": 386433.5,
+   "h_trawl": 11175.9,
+   "h_longline": 197532.2,
+   "h_squid": 36085.6,
+   "h_seine": 18784.3,
+   "h_other": 122855.4,
+   "active_cell_months": 26585,
+   "hours_per_active_cell_month": 14.5,
+   "beyond_reach": 113966.1,
+   "beyond_reach_squid": 24071.5
+  },
+  {
+   "year": 2021,
+   "all_hours": 464759.9,
+   "h_trawl": 17254.7,
+   "h_longline": 231759.2,
+   "h_squid": 44317.1,
+   "h_seine": 19563.6,
+   "h_other": 151865.3,
+   "active_cell_months": 31178,
+   "hours_per_active_cell_month": 14.9,
+   "beyond_reach": 182819.1,
+   "beyond_reach_squid": 42116.3
+  },
+  {
+   "year": 2022,
+   "all_hours": 677224.8,
+   "h_trawl": 21428.8,
+   "h_longline": 218057.0,
+   "h_squid": 96073.2,
+   "h_seine": 19085.5,
+   "h_other": 322580.3,
+   "active_cell_months": 28553,
+   "hours_per_active_cell_month": 23.7,
+   "beyond_reach": 181947.6,
+   "beyond_reach_squid": 42648.0
+  },
+  {
+   "year": 2023,
+   "all_hours": 529938.0,
+   "h_trawl": 23361.7,
+   "h_longline": 163327.1,
+   "h_squid": 73036.5,
+   "h_seine": 24331.1,
+   "h_other": 245881.7,
+   "active_cell_months": 24335,
+   "hours_per_active_cell_month": 21.8,
+   "beyond_reach": 47867.2,
+   "beyond_reach_squid": 10376.2
+  },
+  {
+   "year": 2024,
+   "all_hours": 460272.2,
+   "h_trawl": 23858.9,
+   "h_longline": 202282.0,
+   "h_squid": 152141.3,
+   "h_seine": 21391.1,
+   "h_other": 60598.9,
+   "active_cell_months": 25546,
+   "hours_per_active_cell_month": 18.0,
+   "beyond_reach": 45996.5,
+   "beyond_reach_squid": 27448.1
+  },
+  {
+   "year": 2025,
+   "all_hours": 473673.8,
+   "h_trawl": 17066.9,
+   "h_longline": 199422.7,
+   "h_squid": 168292.3,
+   "h_seine": 26792.9,
+   "h_other": 62099.1,
+   "active_cell_months": 27906,
+   "hours_per_active_cell_month": 17.0,
+   "beyond_reach": 44085.9,
+   "beyond_reach_squid": 26303.6
+  }
+ ],
+ "nazca_ring_by_band": [
+  {
+   "year": 2019,
+   "0-200": 8469.3,
+   "200-400": 42753.3,
+   "400-600": 173901.1,
+   "600-800": 138571.8
+  },
+  {
+   "year": 2020,
+   "0-200": 3096.1,
+   "200-400": 6035.0,
+   "400-600": 47221.5,
+   "600-800": 113437.2
+  },
+  {
+   "year": 2021,
+   "0-200": 8931.2,
+   "200-400": 5658.4,
+   "400-600": 14330.1,
+   "600-800": 179873.3
+  },
+  {
+   "year": 2022,
+   "0-200": 4418.5,
+   "200-400": 12014.5,
+   "400-600": 245401.8,
+   "600-800": 157523.4
+  },
+  {
+   "year": 2023,
+   "0-200": 7893.1,
+   "200-400": 5540.6,
+   "400-600": 217467.0,
+   "600-800": 98294.1
+  },
+  {
+   "year": 2024,
+   "0-200": 10613.8,
+   "200-400": 23845.5,
+   "400-600": 121706.5,
+   "600-800": 77283.9
+  },
+  {
+   "year": 2025,
+   "0-200": 4406.1,
+   "200-400": 19414.6,
+   "400-600": 150181.6,
+   "600-800": 63884.2
+  }
+ ],
+ "oceanic_total_cv": 0.19975314331804517,
+ "ferry": {
+  "S1": {
+   "ferry_h": 9.291772985950344,
+   "flight_h": 361.50381654203017,
+   "ferry_pct_of_flight_h": 2.5703111725986543
+  },
+  "S2": {
+   "ferry_h": 10.260897441495036,
+   "flight_h": 361.59520292779683,
+   "ferry_pct_of_flight_h": 2.8376752120641178
+  },
+  "S3": {
+   "ferry_h": 13.289050155603586,
+   "flight_h": 345.0370675973677,
+   "ferry_pct_of_flight_h": 3.851484783400405
+  },
+  "S4": {
+   "ferry_h": 5.779249666268734,
+   "flight_h": 361.04024197950184,
+   "ferry_pct_of_flight_h": 1.6007217463024113
+  },
+  "S5": {
+   "ferry_h": 29.329197263367355,
+   "flight_h": 345.76594187029656,
+   "ferry_pct_of_flight_h": 8.482384674650605
+  },
+  "S*": {
+   "ferry_h": 36.86160166268407,
+   "flight_h": 345.63913040529,
+   "ferry_pct_of_flight_h": 10.664765190058443
+  }
+ },
+ "config": {
+  "CREW_H": 8.0,
+  "PLATFORMS": [
+   {
+    "plat_id": "P3",
+    "name": "P-3ACH",
+    "v_kmh": 555,
+    "T_h": 12.0,
+    "R_km": 1850,
+    "W_km": 40
+   },
+   {
+    "plat_id": "C295",
+    "name": "C-295",
+    "v_kmh": 480,
+    "T_h": 8.0,
+    "R_km": 1100,
+    "W_km": 30
+   }
+  ],
+  "SORTIE_SEEDS": 3,
+  "SORTIE_SWAP": true,
+  "REOPT_PASSES": 1,
+  "FAST_MODE": false,
+  "TEST_YEARS": [
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "SEL_YEAR": 2021,
+  "BLK_DEG": 0.6,
+  "PMIN": 0.8,
+  "PRESENCE": 1.0,
+  "RESERVE": 0.15,
+  "K_POOL": 300,
+  "SORTIES_PER_AC_MONTH": 10,
+  "COVER_BONUS": 0.0,
+  "W_NT": 5.0,
+  "n_blocks": 3022,
+  "N_BOOT": 10000,
+  "LP_LEVELS": 6,
+  "versions": {
+   "numpy": "2.4.6",
+   "pandas": "2.2.3",
+   "scipy": "1.16.3",
+   "lightgbm": "4.6.0"
+  }
+ }
+}

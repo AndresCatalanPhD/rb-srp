@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Out-of-sample risk-model performance (rolling origin by year; monthly metrics averaged).}\label{tab:risk}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+region & method & spearman & top10\_capture & auc\_pos & poisson\_dev \\
+\midrule
+coastal\_north & hist12 & 0.297 & 0.696 & 0.814 & 5.46 \\
+coastal\_north & lag12 & 0.197 & 0.308 & 0.597 & 20.38 \\
+coastal\_north & model & 0.254 & 0.698 & 0.851 & 3.08 \\
+coastal\_south & hist12 & 0.399 & 0.912 & 0.896 & 2.05 \\
+coastal\_south & lag12 & 0.391 & 0.596 & 0.692 & 7.71 \\
+coastal\_south & model & 0.285 & 0.934 & 0.953 & 1.17 \\
+oceanic & hist12 & 0.293 & 0.547 & 0.784 & 15.34 \\
+oceanic & lag12 & 0.319 & 0.443 & 0.663 & 49.95 \\
+oceanic & model & 0.357 & 0.710 & 0.890 & 8.33 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,9 @@
+dataset,month,api_hours,panel_hours,ratio,error
+public-global-fishing-effort:latest,2023-03,874.518888888889,1572.1805555555557,0.5562458369038049,
+public-global-fishing-effort:latest,2024-09,304.5091666666667,2018.7516666666666,0.15084032954358761,
+public-global-fishing-effort:v4.0,2023-03,1520.4208333333333,1572.1805555555557,0.96707774941032,
+public-global-fishing-effort:v4.0,2024-09,1831.6591666666664,2018.7516666666666,0.9073226771329805,
+public-global-fishing-effort:v3.1,2023-03,,,,"404: {""statusCode"":404,""error"":""Not Found"",""messages"":[{""title"":""Not Found"",""detail"":""Dataset with id public-global-fishing-effort:v3.1 not "
+public-global-fishing-effort:v3.1,2024-09,,,,"404: {""statusCode"":404,""error"":""Not Found"",""messages"":[{""title"":""Not Found"",""detail"":""Dataset with id public-global-fishing-effort:v3.1 not "
+public-global-fishing-effort:v3.0,2023-03,1520.4208333333333,1572.1805555555557,0.96707774941032,
+public-global-fishing-effort:v3.0,2024-09,1831.6591666666673,2018.7516666666666,0.9073226771329811,

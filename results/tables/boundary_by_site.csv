@@ -1,0 +1,37 @@
+mpa_name,mpa_type,region,band,cells,h,h_per_cell
+Archipiélago de Humboldt,multi-use,coastal_north,-20/0,47,111.43305555555555,2.370916075650118
+Archipiélago de Humboldt,multi-use,coastal_north,0/20,44,119.70361111111112,2.7205366161616165
+Bahía Lomas,multi-use,coastal_south,-20/0,7,0.0,0.0
+Bahía Lomas,multi-use,coastal_south,0/20,23,172.706008945,7.5089569106521745
+Estero de Quitralco,multi-use,coastal_south,0/20,4,14.1975,3.549375
+Francisco Coloane (AM),multi-use,coastal_south,-20/0,9,15.821944444444444,1.7579938271604938
+Francisco Coloane (AM),multi-use,coastal_south,0/20,6,2.733333333333333,0.4555555555555555
+Isla Chañaral,multi-use,coastal_north,-20/0,1,0.7825000000000001,0.7825000000000001
+Islas Choros - Damas,multi-use,coastal_north,-20/0,1,0.0,0.0
+Islas Diego Ramírez y Paso Drake,no-take,coastal_south,-20/0,491,1607.4896168872224,3.273909606694954
+Islas Diego Ramírez y Paso Drake,no-take,coastal_south,0/20,502,17759.17825979528,35.37684912309817
+Kawésqar (RN),multi-use,coastal_south,-20/0,314,1447.2716174680556,4.609145278560686
+Kawésqar (RN),multi-use,coastal_south,0/20,294,6188.994888392778,21.051003021744144
+Lafken Mapu Lahual,multi-use,coastal_south,0/20,9,20.871666666666666,2.319074074074074
+Mar de Juan Fernández,multi-use,oceanic,-20/0,45,4.831666666666667,0.10737037037037038
+Mar de Juan Fernández,multi-use,oceanic,0/20,30,14.909166666666668,0.49697222222222226
+Mar de Juan Fernández (PN),no-take,oceanic,-20/0,108,11.32138888888889,0.10482767489711936
+Mar de Juan Fernández (PN),no-take,oceanic,0/20,100,154.50861111111112,1.5450861111111112
+Mar de Pisagua,multi-use,coastal_north,-20/0,6,794.3978055555556,132.39963425925927
+Mar de Pisagua,multi-use,coastal_north,0/20,18,1895.068021625,105.28155675694444
+Montes submarinos Crusoe y Selkirk,no-take,oceanic,-20/0,3,0.0,0.0
+Motu Motiro Hiva,no-take,oceanic,-20/0,72,0.47138888888888886,0.006547067901234567
+Nazca-Desventuradas,no-take,oceanic,-20/0,105,65.9538888888889,0.6281322751322752
+Nazca-Desventuradas,no-take,oceanic,0/20,127,1365.8816759444446,10.75497382633421
+Pitipalena - Añihue,multi-use,coastal_south,-20/0,1,0.0,0.0
+Pitipalena - Añihue,multi-use,coastal_south,0/20,6,9.623055555555556,1.6038425925925928
+Punta Morro - Desembocadura Río Copiapó - Isla grande de Atacama,multi-use,coastal_north,-20/0,1,12.72861111111111,12.72861111111111
+Punta Morro - Desembocadura Río Copiapó - Isla grande de Atacama,multi-use,coastal_north,0/20,15,282.59027777777777,18.839351851851852
+Rapa Nui,multi-use,oceanic,-20/0,207,67.73527777777778,0.327223564143854
+Rapa Nui,multi-use,oceanic,0/20,150,1282.1672222222223,8.547781481481483
+Seno Almirantazgo,multi-use,coastal_south,-20/0,7,0.0,0.0
+Seno Almirantazgo,multi-use,coastal_south,0/20,19,0.0,0.0
+Tictoc-Golfo Corcovado,no-take,coastal_south,-20/0,12,26.64308734611111,2.2202572788425923
+Tictoc-Golfo Corcovado,no-take,coastal_south,0/20,22,50.83277777777778,2.310580808080808
+Tortel,multi-use,coastal_south,-20/0,67,5324.218634768611,79.46594977266584
+Tortel,multi-use,coastal_south,0/20,101,10066.078047061945,99.66413907982124

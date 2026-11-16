@@ -1,0 +1,15 @@
+# The notebooks install what they need on Google Colab. For a local run (Python 3.11 or later):
+numpy
+pandas
+scipy
+pyarrow
+requests
+shapely>=2.0
+geopandas
+pyogrio
+pyproj
+lightgbm
+shap
+matplotlib
+global-land-mask
+gurobipy        # optional: exact single-sortie benchmark (stage L2); needs a Gurobi license for the full candidate lists
